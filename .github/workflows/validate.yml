@@ -1,0 +1,14 @@
+name: HTML Check
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2 # Requried will all actions
+    - name: Checks HTML
+      uses: anishathalye/proof-html@v2
+      with:
+        directory: ./
