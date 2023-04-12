@@ -1,0 +1,51 @@
+@import "global.css";
+@import "header.css";
+@import "offer-menu.css";
+@import "friday-deal.css";
+@import "special-price.css";
+@import "botteled-beer.css";
+@import "top-choice.css";
+@import "footer.css";
+
+/*Oleksandr Kovalenko*/
+
+.blog-container {
+	overflow: auto;
+}
+
+.blog-item-outer {
+	display: inline-block;
+	float: left;
+/*	padding-left: 5px;
+	padding-right: 5px;*/
+	width: calc(100%/3);
+	box-sizing: border-box; 
+}
+
+/*blog-item-post img,
+.video-item video {
+	
+}*/
+
+/*.blog-text {
+	
+}*/
+
+.blog-text h4 {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.blog-text p {
+	height: 15px;
+	overflow: hidden;
+}
+
+.blog-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*Oleksandr Kovalenko*/
