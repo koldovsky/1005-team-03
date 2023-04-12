@@ -1,0 +1,27 @@
+#friday-deal {
+    text-align: center;
+    background-image: url(../images/background_friday.png);
+    color: var(--main-color);
+} 
+
+.friday-deal__container {
+    padding: 64px 58px;
+}
+
+.friday-deal__discount {
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.friday-deal__title {
+    margin-bottom: 35px;
+}
+
+.friday-deal__text {
+    margin-bottom: 35px;
+}
+
+.friday-deal__button {
+    background-color: var(--main-color);
+    color: var(--title-color);
+}
