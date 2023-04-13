@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Shadows+Into+Light&family=Teko:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #111;
+    --button-color: #ffc123;
+    --grand-text-color: #ffc123;
+    --dark-button-color: #444343;
+    --button-hover-color: #e9ae17;
+    --title-color: #fff;
+    --subtitle-color: #cccccc;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+h1 {
+    color: var(--background-color);
+    font-size: 128px;
+    font-family: "Teko", sans-serif;
+}
+
+h2 {
+    color: var(--background-color);
+    font-size: 62px;
+    font-family: "Teko", sans-serif;
+}
+
+h3 {
+    color: var(--button-color);
+    font-size: 28px;
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+h4 {
+    color: var(--subtitle-color);
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-button {
+    display: inline-block;
+    color: var(--main-color);
+    background-color: var(--button-color);
+
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 15px 36px;
+}
+
+.main-button:hover {
+    background-color: var(--button-hover-color);
+}
