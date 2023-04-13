@@ -1,0 +1,40 @@
+
+.blog-container {
+	overflow: auto;
+}
+
+.blog-item-outer {
+	float: left;
+	width: calc(100%/3);
+	box-sizing: border-box; 
+}
+
+.video-item video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 	
+}
+
+/*.blog-text {
+	
+}*/
+
+.blog-text h4 {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.blog-text p {
+	height: 15px;
+	overflow: hidden;
+}
+
+.blog-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+    margin:25px auto;
+}
+
+
