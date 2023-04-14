@@ -14,12 +14,11 @@
     --button-hover-color: #e9ae17;
     --title-color: #fff;
     --subtitle-color: #cccccc;
-    scroll-behavior: smooth;
-}
 
-body {
-    background-color: var(--main-color);
     color: var(--title-color);
+    background-image: url("../images/main-background.png");
+    background-size: 100px;
+    scroll-behavior: smooth;
 }
 
 h1 {
