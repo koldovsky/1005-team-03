@@ -8,7 +8,10 @@
 .footer__text
 .footer__social 
 .social-list
-.social-list_item
+.social-list_item a img {
+    width: 32px;
+    height: 32px;
+}
 .footer__column-nav
 .footer__title
 .footer__nav
