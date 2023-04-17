@@ -5,7 +5,9 @@
 .footer__logo
 .footer__text
 .footer__social
-.social-list_item
+.social-list_item {
+    width: 30px;
+}
 .footer__column-nav
 .footer__title
 .footer-nav__list
@@ -14,7 +16,9 @@
 .footer__contacts-list
 .contacts-list
 .contacts-list__item
-.contacts-list__icon
+.contacts-list__icon {
+    width: 30px;
+}
 .contacts-list__text
 .footer__subscribe-form
 .form_placeholder
