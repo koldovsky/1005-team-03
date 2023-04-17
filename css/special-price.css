@@ -11,17 +11,28 @@
 }
 
 .special-price__content {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
  }
 
+.special-price__picture {
+    align-content: first baseline ;
+}
+
 .special-price-block__list-item {
-    justify-content: center;
-    align-items: center;
+    display: flex;
+
 }
 
 .special-price-block__subtitle {
     color: #fff;
+}
+
+.special-price-block {
+    justify-content: center;
+    align-items: center;
 }
 
 .special-price-block__list-item {
