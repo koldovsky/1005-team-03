@@ -1,28 +1,4 @@
-.footer
-.container
-.footer__top
-.footer__column-logo
-.footer__logo
-.footer__text
-.footer__social
-.social-list_item {
-    width: 30px;
+.footer div {
+    border: 1px solid red;
 }
-.footer__column-nav
-.footer__title
-.footer-nav__list
-.footer-nav__item
-.footer__column-contacts
-.footer__contacts-list
-.contacts-list
-.contacts-list__item
-.contacts-list__icon {
-    width: 30px;
-}
-.contacts-list__text
-.footer__subscribe-form
-.form_placeholder
-.form__button
-.footer__copyright
-.copyright
-.copyright__item
+
