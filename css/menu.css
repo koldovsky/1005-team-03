@@ -1,0 +1,78 @@
+.introductory-block__text {
+    color: var(--main-color);
+    background-image: url("../images/background-menu.png");
+
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.initial-text {
+    text-align: center;
+    margin-top: 110px;
+}
+
+
+.food-menu .initial-text {
+    margin-top: 60px;
+}
+
+.initial-text__text {
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    width: 485px;
+    margin-right: 50px;
+}
+
+.category__title {
+    font-size: 38px;
+    color: var(--button-color);
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.category__main-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__item__name {
+    font-size: 38px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+}
+
+.category__item__price {
+    font-size: 38px;
+    color: var(--button-color);
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+}
+
+.category__item__text {
+    color: #9d9d9d;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+}
+
+.main-image {
+    display: block;
+    width: 1050px;
+    height: 520px;
+
+    object-fit:cover;
+    margin: auto;
+    margin-top: 55px;
+}

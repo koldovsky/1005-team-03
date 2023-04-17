@@ -1,0 +1,35 @@
+.special-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s ease-out;
+}
+
+.special-price-background-image {
+    background-image: url(../images/background_friday_menu.png);
+
+}
+
+.special-price__content {
+    justify-content: center;
+    align-items: center;
+ }
+
+.special-price-block__list-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.special-price-block__subtitle {
+    color: #fff;
+}
+
+.special-price-block__list-item {
+    display: flex;
+}
+
+.special-price-block__list-item-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

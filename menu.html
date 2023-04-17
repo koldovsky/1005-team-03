@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/6234756258d0bb00237f54b3/6241d2b24aa13900235a0388_optimized" sizes="16x16">
     <title>Menu Page | Beer Pub</title>
+    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/6234756258d0bb00237f54b3/6241d2b24aa13900235a0388_optimized" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 </head>
 <body>
     <!-- Marian Moh -->
     <header class="header">
-        <nav class="header__nav">
+        <nav class="header__nav container">
             <div class="header__logo-container">
                 <a href="index.html"><img src="images/beer-logo.svg" width="182" alt="beer logo"></a>
             </div>
-            <div class="header__menu">
-                <a href="#" class="header__menu-item">About us</a>
-                <a href="#" class="header__menu-item">Menu</a>
-                <a href="#" class="header__menu-item">Friday deal</a>
-                <a href="#" class="header__menu-item">Blog</a>
-                <a href="#" class="header__menu-item">Contacts</a>
+            <div class="header__menu menu">
+                <a href="#" class="menu__item">Menu</a>
+                <a href="#" class="menu__item">Friday deal</a>
+                <a href="#" class="menu__item">Blog</a>
+                <a href="#" class="menu__item">Contacts</a>
             </div>
             <div class="header__social-icons">
                 <a href="https://facebook.com"><img src="images/facebook-logo.svg" alt="facebook logo"></a>
@@ -28,212 +28,274 @@
             </div>
         </nav>
         <div class="header__introductory-block introductory-block">
-            <p class="introductory-block__text">Menu</p>
+            <h2 class="introductory-block__text">Menu</h2>
         </div>
     </header>
-    <br>
     <section class="bar-menu">
         <div class="initial-text">
-            <h2 class="initial-text__subtitle">Bar</h2>
-            <h3 class="initial-text__title">Bar Menu</h3>
-            <p class="initial-text__text">We offer bottled beers by local producers, our own draft beer, and a variety of cocktails.</p>
+            <h3 class="initial-text__subtitle">Bar</h3>
+            <h2 class="initial-text__title">Bar Menu</h2>
+            <h4 class="initial-text__text">We offer bottled beers by local producers, our own draft beer, and a variety of cocktails.</h4>
         </div>   
-        <div class="bar-menu__category category">
-            <br>
-            <p class="category__title">BOTTLED BEER</p>
-            <div class="category__item">
-                <p class="category__item__name">Indian pale ale</p>
-                <p class="category__item__price">$4</p>
-                <p class="category__item__text">Strong and bitter beer with intense aroma</p>
+        <div class="bar-menu__collection collection">
+            <div class="bar-menu__category category">
+                <p class="category__title">BOTTLED BEER</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Indian pale ale</p>
+                        <p class="category__item__price">$4</p>
+                    </div>
+                    <p class="category__item__text">Strong and bitter beer with intense aroma</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Lager beer</p>
+                        <p class="category__item__price">$3.50</p>
+                    </div>
+                    <p class="category__item__text">This beer is not bitter at all and features wheat aroma</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">BITTER</p>
+                        <p class="category__item__price">$4</p>
+                    </div>
+                    <p class="category__item__text">"England's favorite beer", dark and intense</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Stout</p>
+                        <p class="category__item__price">$5</p>
+                    </div>
+                    <p class="category__item__text">This frothy beer has a medium strength and a pleasant aroma</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Caramel Ale</p>
+                        <p class="category__item__price">$5.50</p>
+                    </div>
+                    <p class="category__item__text">Caramel malt sweetness accompanied by spicy and citrusy hops</p>
+                </div>
             </div>
-            <div class="category__item">
-                <p class="category__item__name">Lager beer</p>
-                <p class="category__item__price">$3.50</p>
-                <p class="category__item__text">This beer is not bitter at all and features wheat aroma</p>
+            <div class="bar-menu__category category">
+                <p class="category__title">BEER ON TAP</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Blue style</p>
+                        <p class="category__item__price">$5</p>
+                    </div>
+                    <p class="category__item__text">Brewed with oats and spiced with orange peel</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Boutique Ipa</p>
+                        <p class="category__item__price">$6</p>
+                    </div>
+                    <p class="category__item__text">Our best-selling draft beer with bitter taste</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Absolute porter</p>
+                        <p class="category__item__price">$7</p>
+                    </div>
+                    <p class="category__item__text">Chocolate peanut butter porter with rich taste</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Belgian dream</p>
+                        <p class="category__item__price">$8</p>
+                    </div>
+                    <p class="category__item__text">A traditional Belgian-style wheat ale with whispers of orange</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">BEER BOUTIQUE LAGER</p>
+                        <p class="category__item__price">$9</p>
+                    </div>
+                    <p class="category__item__text">Crisp, clean and slightly dry with some residual sweetness</p>
+                </div>
             </div>
-            <div class="category__item">
-                <p class="category__item__name">BITTER</p>
-                <p class="category__item__price">$4</p>
-                <p class="category__item__text">"England's favorite beer", dark and intense</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Stout</p>
-                <p class="category__item__price">$5</p>
-                <p class="category__item__text">This frothy beer has a medium strength and a pleasant aroma</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Caramel Ale</p>
-                <p class="category__item__price">$5.50</p>
-                <p class="category__item__text">Caramel malt sweetness accompanied by spicy and citrusy hops</p>
-            </div>
-
-            <br>
-            <p class="category__title">BEER ON TAP</p>
-            <div class="category__item">
-                <p class="category__item__name">Blue style</p>
-                <p class="category__item__price">$5</p>
-                <p class="category__item__text">Brewed with oats and spiced with orange peel</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Boutique Ipa</p>
-                <p class="category__item__price">$6</p>
-                <p class="category__item__text">Our best-selling draft beer with bitter taste</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Absolute porter</p>
-                <p class="category__item__price">$7</p>
-                <p class="category__item__text">Chocolate peanut butter porter with rich taste</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Belgian dream</p>
-                <p class="category__item__price">$8</p>
-                <p class="category__item__text">A traditional Belgian-style wheat ale with whispers of orange</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">BEER BOUTIQUE LAGER</p>
-                <p class="category__item__price">$9</p>
-                <p class="category__item__text">Crisp, clean and slightly dry with some residual sweetness</p>
-            </div>
-
-            <br>
-            <p class="category__title">COCKTAILS</p>
-            <div class="category__item">
-                <p class="category__item__name">MONKEY SOUR</p>
-                <p class="category__item__price">$10</p>
-                <p class="category__item__text">Monkey Shoulder whisky, strawberry, lemon, sugar</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">OLD FASHIONED</p>
-                <p class="category__item__price">$11</p>
-                <p class="category__item__text">Buffalo Trace bourbon, demerara, Angostura Bitters</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">PIÑA COLADA</p>
-                <p class="category__item__price">$10</p>
-                <p class="category__item__text">Havana Club 3 Year Old rum, coconut, pineapple</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">MOJITO</p>
-                <p class="category__item__price">$11</p>
-                <p class="category__item__text">Havana Club 3 Year Old rum, lime, mint, soda</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">BRAMBLE</p>
-                <p class="category__item__price">$13</p>
-                <p class="category__item__text">Tanqueray London Dry gin, crème de mure, lemon</p>
+            <div class="bar-menu__category category">
+                <p class="category__title">COCKTAILS</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">MONKEY SOUR</p>
+                        <p class="category__item__price">$10</p>
+                    </div>
+                    <p class="category__item__text">Monkey Shoulder whisky, strawberry, lemon, sugar</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">OLD FASHIONED</p>
+                        <p class="category__item__price">$11</p>
+                    </div>
+                    <p class="category__item__text">Buffalo Trace bourbon, demerara, Angostura Bitters</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">PIÑA COLADA</p>
+                        <p class="category__item__price">$10</p>
+                    </div>
+                    <p class="category__item__text">Havana Club 3 Year Old rum, coconut, pineapple</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">MOJITO</p>
+                        <p class="category__item__price">$11</p>
+                    </div>
+                    <p class="category__item__text">Havana Club 3 Year Old rum, lime, mint, soda</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">BRAMBLE</p>
+                        <p class="category__item__price">$13</p>
+                    </div>
+                    <p class="category__item__text">Tanqueray London Dry gin, crème de mure, lemon</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <img width="900" src="images/menu-main-image.png" alt="image is full of beer">
+    <img class="main-image" src="images/menu-main-image.png" alt="image is full of beer">
 
     <section class="food-menu">
         <div class="initial-text">
-            <h2 class="initial-text__subtitle">Food</h2>
-            <h3 class="initial-text__title">Food Menu</h3>
-            <p class="initial-text__text">Explore our snacks, burgers, and main dishes.</p>
+            <h3 class="initial-text__subtitle">Food</h3>
+            <h2 class="initial-text__title">Food Menu</h2>
+            <h4 class="initial-text__text">Explore our snacks, burgers, and main dishes.</h4>
         </div> 
-        <div class="food-menu__category category">
-            <br>
-            <p class="category__title">Snacks</p>
-            <div class="category__item">
-                <p class="category__item__name">SPICY NACHOS</p>
-                <p class="category__item__price">$15</p>
-                <p class="category__item__text">Cheddar cheese, jalapenos, queso fresco, sour cream, salsa</p>
+        <div class="food-menu__collection collection">
+            <div class="food-menu__category category">
+                <p class="category__title">Snacks</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">SPICY NACHOS</p>
+                        <p class="category__item__price">$15</p>
+                    </div>
+                    <p class="category__item__text">Cheddar cheese, jalapenos, queso fresco, sour cream, salsa</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">FISH & CHIPS</p>
+                        <p class="category__item__price">$12</p>
+                    </div>
+                    <p class="category__item__text">Ale battered cod, coleslaw, French fries, and tartar sauce</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">FRIED CALAMARY</p>
+                        <p class="category__item__price">$12</p>
+                    </div>
+                    <p class="category__item__text">Fried calamari served with spicy tartar sauce and dill aioli</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">CHICKEN WRAP</p>
+                        <p class="category__item__price">$18</p>
+                    </div>
+                    <p class="category__item__text">Grilled chicken, bacon, tomato, cucumber, avocado, village sauce</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">MAC & CHEESE BITES </p>
+                        <p class="category__item__price">$10</p>
+                    </div>
+                    <p class="category__item__text">With maple bacon and cheese sauce</p>
+                </div>
             </div>
-            <div class="category__item">
-                <p class="category__item__name">FISH & CHIPS</p>
-                <p class="category__item__price">$12</p>
-                <p class="category__item__text">Ale battered cod, coleslaw, French fries, and tartar sauce</p>
+            <div class="food-menu__category category">
+                <p class="category__title">Burgers</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">CLASSIC BURGER</p>
+                        <p class="category__item__price">$14</p>
+                    </div>
+                    <p class="category__item__text">Beef, tomato, pickle, lettuce, cucumber, cheddar cheese, bacon</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">BEEF King</p>
+                        <p class="category__item__price">$18</p>
+                    </div>
+                    <p class="category__item__text">Beef brisket, Swiss cheese, caramelised onions</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Double Cheeseburger</p>
+                        <p class="category__item__price">$22</p>
+                    </div>
+                    <p class="category__item__text">Double beef patties with cheese, tomato, topped with mozzarella </p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Chicken burger</p>
+                        <p class="category__item__price">$15</p>
+                    </div>
+                    <p class="category__item__text">Chicken breast, soaked with hot sauce & blue cheese slaw</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Boutique burger</p>
+                        <p class="category__item__price">$19</p>
+                    </div>
+                    <p class="category__item__text">Maple bacon, tomato, red onions topped off with a fried egg</p>
+                </div>
             </div>
-            <div class="category__item">
-                <p class="category__item__name">FRIED CALAMARY</p>
-                <p class="category__item__price">$12</p>
-                <p class="category__item__text">Fried calamari served with spicy tartar sauce and dill aioli</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">CHICKEN WRAP</p>
-                <p class="category__item__price">$18</p>
-                <p class="category__item__text">Grilled chicken, bacon, tomato, cucumber, avocado, village sauce</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">MAC & CHEESE BITES </p>
-                <p class="category__item__price">$10</p>
-                <p class="category__item__text">With maple bacon and cheese sauce</p>
-            </div>
-
-            <br>
-            <p class="category__title">Burgers</p>
-            <div class="category__item">
-                <p class="category__item__name">CLASSIC BURGER</p>
-                <p class="category__item__price">$14</p>
-                <p class="category__item__text">Beef, tomato, pickle, lettuce, cucumber, cheddar cheese, bacon</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">BEEF King</p>
-                <p class="category__item__price">$18</p>
-                <p class="category__item__text">Beef brisket, Swiss cheese, caramelised onions</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Double Cheeseburger</p>
-                <p class="category__item__price">$22</p>
-                <p class="category__item__text">Double beef patties with cheese, tomato, topped with mozzarella </p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Chicken burger</p>
-                <p class="category__item__price">$15</p>
-                <p class="category__item__text">Chicken breast, soaked with hot sauce & blue cheese slaw</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Boutique burger</p>
-                <p class="category__item__price">$19</p>
-                <p class="category__item__text">Maple bacon, tomato, red onions topped off with a fried egg</p>
-            </div>
-
-            <br>
-            <p class="category__title">Meat</p>
-            <div class="category__item">
-                <p class="category__item__name">SESAME CHICKEN STRIPS</p>
-                <p class="category__item__price">$13</p>
-                <p class="category__item__text">Chicken breasts in Jack Daniel's® glaze with toasted sesame seeds</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Hot wings</p>
-                <p class="category__item__price">$15</p>
-                <p class="category__item__text">Served with barbecue sauce and coleslaw</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">Lamb gyro</p>
-                <p class="category__item__price">$20</p>
-                <p class="category__item__text">Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita bread</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">LAMB CHOPS</p>
-                <p class="category__item__price">$22</p>
-                <p class="category__item__text">Marinated herb roasted rack of lamb chops with balsamic sauce</p>
-            </div>
-            <div class="category__item">
-                <p class="category__item__name">PAN ROASTED PORK CHOP</p>
-                <p class="category__item__price">$23</p>
-                <p class="category__item__text">Served in a bourbon & honey glaze with berry sauce</p>
+            <div class="food-menu__category category">
+                <p class="category__title">Meat</p>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">SESAME CHICKEN STRIPS</p>
+                        <p class="category__item__price">$13</p>
+                    </div>
+                    <p class="category__item__text">Chicken breasts in Jack Daniel's® glaze with toasted sesame seeds</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Hot wings</p>
+                        <p class="category__item__price">$15</p>
+                    </div>
+                    <p class="category__item__text">Served with barbecue sauce and coleslaw</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">Lamb gyro</p>
+                        <p class="category__item__price">$20</p>
+                    </div>
+                    <p class="category__item__text">Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita bread</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">LAMB CHOPS</p>
+                        <p class="category__item__price">$22</p>
+                    </div>
+                    <p class="category__item__text">Marinated herb roasted rack of lamb chops with balsamic sauce</p>
+                </div>
+                <div class="category__item">
+                    <div class="category__main-part">
+                        <p class="category__item__name">PAN ROASTED PORK CHOP</p>
+                        <p class="category__item__price">$23</p>
+                    </div>
+                    <p class="category__item__text">Served in a bourbon & honey glaze with berry sauce</p>
+                </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <br>
-        <div class="footer__logo-container">
-            <h3>BEER BOUTIQUE</h3>
-            <p>THE BEST CRAFT BEER IN NY</p>
-        </div>
-        <p>Welcome to your favorite pub with draft and bottled beer from the best local and world-famous producers.
-        </p>
-        <div class="footer__social-icon-container">
-            <ul>
-                <li>instagram</li>
-                <li>twitter</li>
-                <li>youtobe</li>
-                <li>tripadvisor</li>
-            </ul>
+        <div>
+            <div class="footer__logo-container">
+                <h3>BEER BOUTIQUE</h3>
+                <p>THE BEST CRAFT BEER IN NY</p>
+            </div>
+            <p>Welcome to your favorite pub with draft and bottled beer from the best local and world-famous producers.
+            </p>
+            <div class="footer__social-icon-container">
+                <ul>
+                    <li>instagram</li>
+                    <li>twitter</li>
+                    <li>youtobe</li>
+                    <li>tripadvisor</li>
+                </ul>
+            </div>
         </div>
         <div class="footer__navigation-section">
             <h3>NAVIGATION</h3>
