@@ -1,0 +1,38 @@
+.footer {
+    background-color: aliceblue;
+}
+.container
+.footer__top
+.footer__column-logo
+.footer__logo
+.footer__text
+.footer__social 
+.social-list
+.social-list_item a img {
+    width: 32px;
+    height: 32px;
+}
+.footer__column-nav
+.footer__title
+.footer__nav
+.nav-footer
+.nav-footer__list
+.nav-footer__item
+.footer__column-contacts
+.footer__contact-list
+.contacts-list
+.contact-list__item
+.contact-list__icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.contact-list__text
+.footer__subscribe-form
+.footer__title
+.footer__form
+.form_placeholder
+.form__button
+.footer__copyright
+.copyright
+.copyright__item
