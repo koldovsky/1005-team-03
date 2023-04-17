@@ -1,0 +1,26 @@
+.offer-menu__container {
+    display: flex;
+}
+
+.offer-menu__offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.offer__subtitle {
+    max-width: 400px;
+}
+
+.offer__textbeer {
+    max-width: 360px;
+    margin-bottom: 40px;
+}
+
+.offer__button {
+    max-width: 164px;
+}
+
+.offer__beer {
+    color: var(--button-color);
+}
