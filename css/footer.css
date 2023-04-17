@@ -22,7 +22,11 @@
 .footer__contact-list
 .contacts-list
 .contact-list__item
-.contact-list__icon
+.contact-list__icon img {
+    width: 32px;
+    height: 32px;
+}
+
 .contact-list__text
 .footer__subscribe-form
 .footer__title
