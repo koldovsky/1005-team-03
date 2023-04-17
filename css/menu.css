@@ -41,20 +41,12 @@
 .category__title {
     font-size: 38px;
     color: var(--button-color);
-    font-family: "Teko", sans-serif;
-    text-transform: uppercase;
     margin-bottom: 40px;
 }
 
 .category__main-part {
     display: flex;
     justify-content: space-between;
-}
-
-.category__item__name {
-    font-size: 38px;
-    font-family: "Teko", sans-serif;
-    text-transform: uppercase;
 }
 
 .category__item__price {
