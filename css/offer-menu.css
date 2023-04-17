@@ -1,11 +1,16 @@
 .offer-menu__container {
+    max-width: 1170px;
+    margin: 0 auto;
     display: flex;
 }
 
-.offer-menu__offer {
+.offer-menu__container .offer-menu__offer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: left;
+    margin-right: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .offer__subtitle {
@@ -24,3 +29,21 @@
 .offer__beer {
     color: var(--button-color);
 }
+
+.offer-menu__menu {
+    display:flex;
+    max-width: 745px;
+    flex-wrap: wrap;
+}
+
+.offer-menu__menu .menu__item:nth-child(even) {
+    max-width: 355px;
+    flex: 1 1 355px;
+    margin-right: 1rem;
+}
+
+.offer-menu__menu .menu__item:nth-child(odd) {
+    max-width: 370px;
+    flex: 1 1 370px;
+}
+
