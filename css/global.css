@@ -68,3 +68,9 @@ a {
 .main-button:hover {
     background-color: var(--button-hover-color);
 }
+
+/* Можна додати, як у інших команд: */
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+} */
