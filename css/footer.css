@@ -1,36 +1,22 @@
-.footer {
-    background-color: aliceblue;
-}
+.footer
 .container
 .footer__top
 .footer__column-logo
 .footer__logo
 .footer__text
-.footer__social 
-.social-list
-.social-list_item a img {
-    width: 32px;
-    height: 32px;
-}
+.footer__social
+.social-list_item
 .footer__column-nav
 .footer__title
-.footer__nav
-.nav-footer
-.nav-footer__list
-.nav-footer__item
+.footer-nav__list
+.footer-nav__item
 .footer__column-contacts
-.footer__contact-list
+.footer__contacts-list
 .contacts-list
-.contact-list__item
-.contact-list__icon img {
-    width: 32px;
-    height: 32px;
-}
-
-.contact-list__text
+.contacts-list__item
+.contacts-list__icon
+.contacts-list__text
 .footer__subscribe-form
-.footer__title
-.footer__form
 .form_placeholder
 .form__button
 .footer__copyright
