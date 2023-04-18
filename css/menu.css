@@ -160,14 +160,3 @@
         height: 500px;
     }
 }
-
-@media (min-width: 1440px) {
-    .collection {
-        justify-content: space-between;
-    }
-
-    .category {
-        width: 30%;
-        margin-top: 0;
-    }
-}
