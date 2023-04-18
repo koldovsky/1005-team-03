@@ -1,0 +1,72 @@
+.botteled-beer {
+    padding-top: 105px;
+}
+
+.ipa-title, .lager-title, .bitter-title {
+    font-size: 46px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.ipa-description, .lager-description, .bitter-description {
+        color: var(--carousel-description);
+        font-size: 17px;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 35px;
+}
+
+.ipa-generalinfo, .lager-generalinfo, .bitter-generalinfo {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ipa-alkohol, .lager-alkohol, .bitter-alkohol {
+    margin-bottom: 40px;
+}
+
+.botteled-beer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 153.32px;
+    text-align: center;
+    margin-bottom: 65px;
+} 
+
+.botteled-beer__carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.botteled-beer__carousel_ipa {
+    display: flex;
+}
+
+.ipa__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botteled-beer__carousel_lager {
+    display: flex;
+}
+
+.lager__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botteled-beer__carousel_bitter {
+    display: flex;
+}
+
+.bitter__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
