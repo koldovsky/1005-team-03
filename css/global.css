@@ -14,8 +14,26 @@
     --button-hover-color: #e9ae17;
     --title-color: #fff;
     --subtitle-color: #cccccc;
-    --blog-text: #9D9D9D; 
+    --blog-text: #9D9D9D;
     --carousel-description: rgb(157,157,157);
+    --default-color: #2a2a2a;
+    --contacts-links-color: rgb(42, 42, 42);
+    --offer-strike-color: #53535373;
+    --in-stock-color: #228b22;
+    --nav-pages-color: #474747;
+    --button-blue-color: #1e90ff;
+    --button-black-color: #000;
+    --button-colorfull-color: #f4a460;
+    --button-after-color: #006400;
+    --banner-h-color: #fff;
+    --banner-p-color: #3b3b3b;
+    --background-services-color: #faf0e6;
+    --input-color: #f3e8e8f1;
+    --light-text-color: #000;
+    --header-contacts-light: rgb(242, 242, 242);
+    --offer-jbl-color: #eb5112;
+    --offer-jbl-strike-color: #797878;
+    --out-stock-color: #b22222;
 
     color: var(--title-color);
     background-image: url("../images/main-background.png");
