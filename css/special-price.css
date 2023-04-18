@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.special-price-block__list li {
+    list-style: none;
+}
+
 .special-price-background-image {
     background-image: url(../images/background_friday_menu_gs.png);
 }
@@ -13,10 +17,29 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
+/* .special-price__picture {
+    max-width: 50%;
+} */
+
 .special-price-block {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(17, 17, 17, 0.76);
+    margin-top: 30px;
+    padding: 37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-price-block__title {
+    text-align: center;
+}
+
+.special-price-block__subtitle {
+    color: #fff;
+    text-align: center;
 }
 
 .special-price-block__list {
@@ -28,35 +51,62 @@
     display: flex;
     justify-content: space-between;
 }
+
 /* .special-price__picture {
 } */
 
 .special-price-block__list-item__image-text {
     display: flex;
-    justify-content: space-between;
-    min-width: 100%;
-}
-
-/* .special-price-block__list-item {
-    display: flex;
-    justify-content: space-between;
-} */
-
-.special-price-block__subtitle {
-    color: #fff;
-}
-
-.special-price-block {
-    justify-content: center;
-    align-items: center;
-}
-
-.special-price-block__list-item {
-    display: flex;
+    /* justify-content: space-between;
+    min-width: 100%; */
 }
 
 .special-price-block__list-item__image {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    margin: 10px;
 }
+
+.special-price-block__list-item__text {
+    margin: 10px;
+    flex: 1;
+    min-width: 40%;
+}
+
+.special-price-block__list-item-title-price {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.special-price-block__list-item-price {
+    font-size: 38px;
+    color: #ffc123;
+    font-family: "Teko", sans-serif;
+}
+
+.special-price-block__list-item-description {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;    
+    color: rgb(209,209,209);
+}
+
+/* .special-price-block__list-item {
+    display: flex;
+} */
+
+
+
+/* .underline {
+    width: 100%;
+    height: 1px;
+    min-width: 10px;
+    margin: 7px 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    background: var(--ui-dark-shade-color);
+    opacity: .2;
+} */
