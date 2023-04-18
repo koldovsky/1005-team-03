@@ -1,4 +1,4 @@
-function showText (el) {
+function showtext (el) {
 	if(el.previousElementSibling.clientHeight === 15) {
 		el.previousElementSibling.style.height = "100%";
 		el.innerHTML = "Show less...";  
