@@ -10,38 +10,45 @@
 </head>
 <body>
     <!--Andrii Kaloshyn-->
-    <header class="header">
-        <nav class="header__nav container">
-            <div class="header__logo-container">
-                <a href="#"><img src="images/beer-logo.svg" width="182" alt="beer logo"></a>
+    <header>
+        <section class="banner-bg banner-bg_origin">
+            <div class="container-section">
+                <nav class="navigation">
+                    <div class="navigation-logo">
+                        <a href="#"><img width="182" src="images/beer-logo.svg" alt="logo"></a>
+                        <div class="navigation-burger"><span></span></div>
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="navigation-pages">
+                            <a href="menu.html" class="navigations__menu navigation__link">Menu</a>
+                            <a href="#friday-deal" class="navigations__friday navigation__link">Friday deal</a>
+                            <a href="#blog" class="navigations__blog navigation__link">Blog</a>
+                            <a href="#contacts" class="navigations__contacts navigation__link">Contacts</a>
+                        </div>
+                        <div class="navigation-social">
+                            <a href="https://www.facebook.com/" target="blank"><img src="images/facebook-logo.svg"
+                                    alt="facebook"></a>
+                            <a href="https://www.instagram.com/" target="blank"><img src="images/insta-logo.svg"
+                                    alt="instagram"></a>
+                            <a href="https://tripadvisor.com/" target="blank"><img src="images/tripadvisor-logo.svg"
+                                    alt="tripadvisor"></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="banner">
+                    <div class="banner__text">
+                        <p>Enjoy your beer!</p>
+                        <h1>BEER BOUTIQUE</h1>
+                        <h4>The best beer comes with the best foods!</h4>
+                    </div>
+                    <div class="links">
+                        <a href="#contacts" class="header__menu-item button main-button">RESERVE A TABLE</a>
+                    </div>
+                </div>
             </div>
-            <div class="header__menu menu">
-                <a href="menu.html" class="menu__item">Menu</a>
-                <a href="#friday-deal" class="menu__item">Friday deal</a>
-                <a href="#blog" class="menu__item">Blog</a>
-                <a href="#contacts" class="menu__item">Contacts</a>
-            </div>
-            <div class="header__social-icons">
-                <a href="https://facebook.com"><img src="images/facebook-logo.svg" alt="facebook logo"></a>
-                <a href="https://instagram.com"><img src="images/insta-logo.svg" alt="instagram logo"></a>
-                <a href="https://tripadvisor.com"><img src="images/tripadvisor-logo.svg" alt="tripadvisor logo"></a>
-            </div>
-        </nav>
-        <div class="header__main container">
-            <div class="header__background-container">
-                <iframe
-                    src="https://player.vimeo.com/video/692259047?h=701d59659f&amp;portrait=0&amp;muted=1&amp;autopause=0&amp;loop=1&amp;background=1&amp;app_id=122963"
-                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="beer"
-                    data-ready="true"></iframe>
-            </div>
-            <div class="header__banner">
-                <p class="header__title">Enjoy your beer!</p>
-                <h1 class="header__subtitle">BEER BOUTIQUE</h1>
-                <h4 class="header__text">The best beer comes with the best foods!</h4>
-                <a href="#contacts" class="header__menu-item button main-button">RESERVE A TABLE</a>
-            </div>
-        </div>
+        </section>
     </header>
+
     <main>
         <!--Polina Koretska-->
         <section class="offer-menu">
@@ -393,5 +400,6 @@
     <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@1.1.1/html-data-include.js"></script>
     <script type="text/javascript" src="scripts/showText_botton.js"></script>
+    <script src="scripts/burger-menu.js"></script>
 </body>
 </html>
