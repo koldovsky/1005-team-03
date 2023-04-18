@@ -15,6 +15,7 @@
     --title-color: #fff;
     --subtitle-color: #cccccc;
     --blog-text: #9D9D9D; 
+    --carousel-description: rgb(157,157,157);
 
     color: var(--title-color);
     background-image: url("../images/main-background.png");
