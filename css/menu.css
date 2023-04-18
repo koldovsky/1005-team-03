@@ -1,3 +1,7 @@
+.menu__item {
+    display: none;
+}
+
 .introductory-block__text {
     color: var(--main-color);
     background-image: url("../images/background-menu.png");
@@ -6,40 +10,38 @@
     background-size: cover;
 
     text-align: center;
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
 }
 
 .initial-text {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 70px;
 }
 
-
-.food-menu .initial-text {
-    margin-top: 60px;
+.initial-text__title {
+    margin-top: 7px;
 }
 
 .initial-text__text {
-    margin-top: 12px;
+    margin-top: 7px;
     margin-bottom: 50px;
 }
 
 .collection {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .category {
-    width: 485px;
-    margin-right: 50px;
+    width: 100%;
+    margin-top: 36px;
 }
 
-.category:last-child {
-    margin-right: 0px;
+.category:first-child {
+    margin-top: 0;
 }
 
 .category__title {
-    font-size: 38px;
     color: var(--button-color);
     margin-bottom: 40px;
 }
@@ -50,7 +52,7 @@
 }
 
 .category__item__price {
-    font-size: 38px;
+    font-size: 26px;
     color: var(--button-color);
     font-family: "Teko", sans-serif;
     text-transform: uppercase;
@@ -65,108 +67,96 @@
 
 .main-image {
     display: block;
-    width: 1050px;
-    height: 520px;
+    width: 100%;
+    height: 200px;
 
-    object-fit:cover;
-    margin: auto;
+    object-fit: cover;
     margin-top: 55px;
 }
 
-@media (max-width: 1600px) {
-    .collection {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .category:nth-child(2) {
-        margin-right: 0px;
-    }
-
-    .category:last-child {
-        margin-top: 36px;
-    }
+.food-menu {
+    margin-bottom: 70px;
 }
 
-@media (max-width: 1200px) {
-    .main-image {
-        width: 100%;
-        height: 480px;
-
-        padding-right: 36px;
-        padding-left: 36px;
-    }
-}
-
-@media (max-width: 1060px) {
-    .initial-text__text{
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .category {
-        width: 100%;
-        margin-right: 0px;
-        padding-right: 45px;
-        padding-left: 45px;
-    }
-
-    .category:nth-child(2) {
-        margin-top: 36px;
-    }
-}
-
-@media (max-width: 750px) {
-    .menu__item {
-        display: none;
-    }
-
-    .introductory-block__text {
-        font-size: 40px;
-    }
-
-    .initial-text {
-        margin-top: 60px;
-    }
-
-    .initial-text__subtitle {
-        font-size: 18px;
-    }
-
-    .initial-text__title {
-        font-size: 40px;
-    }
-
-    .initial-text__text {
-        font-size: 17px;
-        margin-top: 7px;
-    }
-
-    .category__title {
-        font-size: 26px;
-    }
-
-    .category__item__name {
-        font-size: 26px;
-    }
-
-    .category__item__price {
-        font-size: 26px;
-    }
-
-    .main-image {
-        height: 360px;
-    }
-}
-
-@media (max-width: 750px) {
+@media (min-width: 425px) {
     .main-image {
         height: 250px;
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 600px) {
     .main-image {
-        height: 180px;
+        height: 300px;
+    }
+} 
+
+@media (min-width: 767px) {
+    .introductory-block__text {
+        font-size: 51px;
+    }
+
+    .bar-menu .initial-text {
+        margin-top: 90px;
+    }
+
+    .initial-text__title {
+        margin-top: 10px;
+    }
+
+    .initial-text__text {
+        margin-top: 12px;
+    }
+
+    .collection {
+        justify-content: space-around;
+    }
+
+    .category {
+        width: 45%;
+    }
+
+    .category:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .category__item__price {
+        font-size: 32px;
+    }
+
+    .main-image {
+        height: 360px;
+    }
+
+    .food-menu {
+        margin-bottom: 90px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .introductory-block__text {
+        font-size: 64px;
+        padding: 40px 0;
+    }
+
+    .bar-menu .initial-text {
+        margin-top: 110px;
+    }
+
+    .food-menu .initial-text {
+        margin-top: 90px;
+    }
+
+    .category__item__price {
+        font-size: 38px;
+    }
+
+    .main-image {
+        height: 420px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-image {
+        height: 500px;
     }
 }
