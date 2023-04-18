@@ -24,30 +24,31 @@
 }
 
 h1 {
-    font-size: 128px;
+    font-size: 64px;
     font-family: "Teko", sans-serif;
 }
 
 h2 {
-    font-size: 62px;
+    font-size: 40px;
     font-family: "Teko", sans-serif;
+    line-height: 42px;
     text-transform: uppercase;
 }
 
 h3 {
     color: var(--button-color);
-    font-size: 28px;
+    font-size: 18px;
     font-family: "Shadows Into Light", sans-serif;
 }
 
 h4 {
     color: var(--subtitle-color);
-    font-size: 19px;
+    font-size: 17px;
     font-family: "Open Sans", sans-serif;
 }
 
 h5 {
-    font-size: 38px;
+    font-size: 26px;
     font-family: "Teko", sans-serif;
     text-transform: uppercase;
 }
@@ -69,11 +70,60 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 
-    padding: 15px 36px;
+    padding: 15px 30px;
 }
 
 .main-button:hover {
     background-color: var(--button-hover-color);
+}
+
+@media (min-width: 767px){
+    h1 {
+        font-size: 95px;
+    }
+    
+    h2 {
+        font-size: 51px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 32px;
+    }
+
+    .main-button {
+        font-size: 13px;
+        padding: 15px 36px;
+    }
+}
+
+@media (min-width: 1024px){
+    h1 {
+        font-size: 128px;
+    }
+    
+    h2 {
+        font-size: 62px;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+    
+    h5 {
+        font-size: 38px;
+    }
 }
 
 /* Можна додати, як у інших команд: */
