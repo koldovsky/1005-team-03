@@ -1,38 +1,86 @@
-.footer {
-    background-color: aliceblue;
-}
-.container
-.footer__top
-.footer__column-logo
-.footer__logo
-.footer__text
-.footer__social 
-.social-list
-.social-list_item a img {
-    width: 32px;
-    height: 32px;
-}
-.footer__column-nav
-.footer__title
-.footer__nav
-.nav-footer
-.nav-footer__list
-.nav-footer__item
-.footer__column-contacts
-.footer__contact-list
-.contacts-list
-.contact-list__item
-.contact-list__icon img {
-    width: 32px;
-    height: 32px;
+.footer__top {
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 15px 60px;
+    margin: 0px 45px;
+    background-color: var(--main-color);
 }
 
-.contact-list__text
-.footer__subscribe-form
-.footer__title
-.footer__form
-.form_placeholder
-.form__button
-.footer__copyright
-.copyright
-.copyright__item
+.footer__logo-container {
+}
+
+.footer__column-logo {
+    border: 1px solid yellow;
+    width: 270px;
+    padding-left: 15px;
+}
+
+.footer__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--blog-text);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__social {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin: auto;
+}
+
+
+
+.footer__column-nav {
+    border: 1px solid yellow;
+    width: 350px;
+    padding-left: 20px;
+}
+
+.footer__title {
+    text-align: center;
+}
+
+.footer-nav__list {
+    text-align: center;
+
+}
+
+.footer-nav__item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: orange;
+    padding-top: 20px;
+}
+
+.footer__column-contacts {
+    border: 1px solid yellow;
+    padding-left: 20px;
+}
+
+.footer__subscribe-form {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 215px;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
