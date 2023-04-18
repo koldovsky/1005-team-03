@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    margin-right: 3.5rem;
+    margin-right: 3rem;
     margin-bottom: 2.5rem;
 }
 
@@ -32,18 +32,26 @@
 
 .offer-menu__menu {
     display:flex;
-    max-width: 81git a0px;
+    max-width: 800px;
     flex-wrap: wrap;
 }
 
-.offer-menu__menu .menu__item:nth-child(even) {
+.offer-menu__menu .menu__item-deal:nth-child(even) {
     max-width: 355px;
     flex: 1 1 355px;
-    margin-right: 1rem;
+    
 }
 
-.offer-menu__menu .menu__item:nth-child(odd) {
+.offer-menu__menu .menu__item-deal:nth-child(odd) {
     max-width: 370px;
     flex: 1 1 370px;
+    margin-right: 3rem;
 }
 
+.menu__item-deal {
+    display:flex;
+    align-items: flex-start;
+}
+.menu__item-deal-about{
+    max-width: 200px;
+}

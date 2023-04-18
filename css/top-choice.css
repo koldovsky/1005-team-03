@@ -1,5 +1,5 @@
 .top-choice{
-  padding: 60px 0px 130px;
+  padding: 0px 40px;
 }
 
 .name{
@@ -8,46 +8,86 @@
   text-align: center;
 }
 
+.name__title{
+  margin-top: 60px;
+}
+
 .name__subtitle{
-  margin-top: 15px;
+  margin-top: 4px;
 }
+
 .name__wish{
-  margin-top: 15px;
+  margin-top: 13px;
 }
 
-.food__photo-img{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 1070px;
-  height: 240px;
-  margin: autogit ;
+.food{
+  padding: 15px;
+}
+
+.food__photo-img div{
+  height: 100%;
 
 }
+
 .food__photo-img img{
   object-fit: cover; 
-  height: 90%;
-  width: 20%;
+  height: 100%;
+  width: 100%;
 }
+
 @media (max-width: 1000px){
   .food__photo-img{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 15px;
   }
 }
 @media (min-width: 1000px){
   .food__photo-img{
     display: flex;
-  }
-}
-.food__photo-img{
-  flex-direction: row;
+    flex-direction: row;
   align-items: center;
   justify-content: space-around;
   flex: 1;
+  }
+}
+.food__photo-img img{
+  height: 100%;
 }
 
 
 
 
+.offers__menu-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__menu-description-title {
+  font-size: 38px;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+}
+
+.offers__menu-description-price {
+  font-size: 38px;
+  color: var(--button-color);
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+}
+
+.offers__menu-description-ingredients {
+  color: #9d9d9d;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+.button__button {
+  background-color: var(--button-hover-color);
+  color: var(--title-color);
+}
