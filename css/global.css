@@ -31,7 +31,7 @@ h1 {
 h2 {
     font-size: 40px;
     font-family: "Teko", sans-serif;
-    line-height: 42px;
+    line-height: 40px;
     text-transform: uppercase;
 }
 
@@ -77,6 +77,24 @@ a {
     background-color: var(--button-hover-color);
 }
 
+.container {
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+
+@media (min-width: 425px) {
+    .container {
+        margin: 0 25px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin: 0 36px;
+    }
+}
+
 @media (min-width: 767px){
     h1 {
         font-size: 95px;
@@ -84,6 +102,7 @@ a {
     
     h2 {
         font-size: 51px;
+        line-height: 48px;
     }
     
     h3 {
@@ -102,6 +121,10 @@ a {
         font-size: 13px;
         padding: 15px 36px;
     }
+
+    .container {
+        margin: 0 42px;
+    }
 }
 
 @media (min-width: 1024px){
@@ -111,6 +134,7 @@ a {
     
     h2 {
         font-size: 62px;
+        line-height: 60px;
     }
     
     h3 {
@@ -124,10 +148,15 @@ a {
     h5 {
         font-size: 38px;
     }
+
+    .container {
+        margin: 50px;
+    }
 }
 
-/* Можна додати, як у інших команд: */
-/* .container {
-    max-width: 1200px;
-    margin: auto;
-} */
+@media (min-width: 1200px) {
+    .container {
+        width: 1060px;
+        margin: auto;
+    }
+}

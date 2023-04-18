@@ -116,7 +116,7 @@
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     .menu__item {
         display: none;
     }
@@ -155,13 +155,7 @@
     }
 
     .main-image {
-        height: 360px;
-    }
-}
-
-@media (max-width: 750px) {
-    .main-image {
-        height: 250px;
+        height: 320px;
     }
 }
 
