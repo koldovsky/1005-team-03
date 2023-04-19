@@ -1,6 +1,5 @@
 .botteled-beer {
     padding-top: 105px;
-    padding-bottom: 65px;
 }
 
 .ipa-title, .lager-title, .bitter-title {
@@ -36,6 +35,11 @@
     margin-bottom: 65px;
 } 
 
+.botteled-beer__carousel {
+    display: flex;
+    justify-content: center;
+}
+
 .botteled-beer__carousel_ipa {
     display: flex;
 }
@@ -66,6 +70,3 @@
     justify-content: space-evenly;
 }
 
-.botteled-beer__carousel {
-    display: flex;
-}
