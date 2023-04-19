@@ -35,6 +35,8 @@
   width: 100%;
 }
 
+
+
 @media (max-width: 1000px) {
   .food__photo-img {
     display: grid;
@@ -46,6 +48,7 @@
 @media (min-width: 1000px) {
   .food__photo-img {
     display: flex;
+    gap: 15px;
   }
 }
 
@@ -75,8 +78,23 @@
   margin-bottom: 25px;
 }
 
+@media (max-width: 760px) {
+  .qwe {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
 
 
+@media (min-width: 760px) {
+  .qwe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+  }
+}
 
 
 
