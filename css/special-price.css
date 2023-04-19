@@ -34,7 +34,7 @@
 }
 
 .special-price-picture__image {
-    max-width: fit-content;
+    max-width: 100%;
 }
 
 .special-price-block {
