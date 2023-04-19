@@ -10,7 +10,10 @@
     border: 1px solid yellow;
     display: flex;
     flex-direction: column;
-    padding-left: 0;
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
 }
 
 .footer__logo-container {
@@ -24,45 +27,74 @@
     font-size: 15px;
     font-weight: 400;
     color: var(--blog-text);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 .footer__social {
-    border: 1px solid blue;
+    min-width: 172px;
+    max-width: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+    gap: 7.5px;
+}
+
+.social-list_item {
+    border: solid 1px #e9ae17;
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.social-list_item:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
 }
 
 .footer__column-nav {
     border: 1px solid yellow;
-    width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer__title {
-    text-align: center;
 }
 
+.footer__contacts-list,
 .footer-nav__list {
-    text-align: center;
-
+    text-align: start;
+    padding-top: 10px;
 }
 
 .footer-nav__item {
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
     font-weight: 600;
-    color: orange;
-    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.footer-nav__item a {
+    color: #9D9D9D;
+}
+
+.footer-nav__item a:hover {
+    cursor: pointer;
 }
 
 .footer__column-contacts {
-    border: 1px solid yellow;
     padding-left: 20px;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .footer__subscribe-form {
