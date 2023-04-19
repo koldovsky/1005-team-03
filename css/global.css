@@ -147,7 +147,7 @@ a {
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 992px){
     h1 {
         font-size: 128px;
     }

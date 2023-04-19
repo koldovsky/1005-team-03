@@ -10,10 +10,10 @@
 }
 
 .ipa-description, .lager-description, .bitter-description {
-        color: var(--carousel-description);
-        font-size: 17px;
-        font-family: "Open Sans", sans-serif;
-        margin-bottom: 35px;
+    color: var(--carousel-description);
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 35px;
 }
 
 .ipa-generalinfo, .lager-generalinfo, .bitter-generalinfo {
