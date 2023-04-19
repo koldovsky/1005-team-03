@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 :root {
@@ -15,6 +16,7 @@
     --title-color: #fff;
     --subtitle-color: #cccccc;
     --blog-text: #9D9D9D;
+    --border-color-light: #fff;
     --carousel-description: rgb(157,157,157);
     --default-color: #2a2a2a;
     --contacts-links-color: rgb(42, 42, 42);

@@ -6,28 +6,32 @@
 
 /* Header blog */
 .blog-header h3 {
+    margin-top: 100px;
 	text-align: center;
 }
 
 .blog-header h2 {
+    margin-top: 20px;
 	text-align: center;
 }
 
 .blog-header h4 {
+    margin-top: 40px;
 	text-align: center;
 }
 
-/* .blog-container {
-	display: flex;
-	justify-content: space-between; 
-} */
-
-/* .blog-item-outer {
-	margin: 20px;
-} */
+ .blog-container {
+    margin-top: 50px;
+    box-sizing: content-box;
+    margin-left: 551px;
+    margin-right: 551px; 
+	justify-content: center;
+} 
 
 .blog-item-post {
-	margin: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    /* width: 33%; */
 }
 
 .blog-item-post h3 {
@@ -40,62 +44,50 @@
 
 .blog-item-post h5 {
 	color: var(--grand-text-color);
+    font-size: 20px;
 }
 
 .blog-item-post p {
 	color: var(--blog-text);
 	font-family: "Open Sans", sans-serif;
+    height: 20px;
     overflow: hidden;
 }
 
 .blog-item-post button {
-	padding: 10px;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	outline: none;
-    margin: 25px auto;
+    margin-top: 40px;
+    align-items: center;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    fill: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    padding: 25px 55px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
 }
-
-/* .blog-text h3 {
-	font-size: 28px;
-    color: var(--title-color);
-	font-family: "Teko", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.blog-text h5 {
-	color: var(--grand-text-color);
-}
-
-.blog-text p {
-	color: var(--blog-text);
-	font-family: "Open Sans", sans-serif;
-} */
-
-/* @media (max-width: 1200px){ 
-    .blog-container { 
-        flex-wrap: wrap; 
-    }
-} */
 
 @media (min-width: 600px) {
-    .blog-list {
+    .blog-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 5px;
+        gap: 20px;
     }
 }
 
 
 @media (min-width: 900px) {
-    .blog-list {
+    .blog-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (max-width: 1200px) {
-    .container {
+    .blog-container {
     margin: auto;
     }
 }

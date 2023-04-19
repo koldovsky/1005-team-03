@@ -1,9 +1,9 @@
 function showtext (el) {
-	if(el.previousElementSibling.clientHeight === 15) {
+	if(el.previousElementSibling.clientHeight === 20) {
 		el.previousElementSibling.style.height = "100%";
-		el.innerHTML = "Show less...";  
+		el.innerHTML = "Show less";  
 	} else {
-		el.previousElementSibling.style.height = "15px";
-		el.innerHTML = "Read more...";
+		el.previousElementSibling.style.height = "20px";
+		el.innerHTML = "Read more";
 	}
 }
