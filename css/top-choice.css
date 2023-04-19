@@ -1,61 +1,53 @@
-.top-choice{
+.top-choice {
   padding: 0px 40px;
 }
 
-.name{
+.name {
   padding: 0px 15px;
   margin-top: 110px;
   text-align: center;
 }
 
-.name__title{
+.name__title {
   margin-top: 60px;
 }
 
-.name__subtitle{
+.name__subtitle {
   margin-top: 4px;
 }
 
-.name__wish{
+.name__wish {
   margin-top: 13px;
 }
 
-.food{
+.food {
   padding: 15px;
 }
 
-.food__photo-img div{
+.food__photo-img div {
   height: 100%;
 
 }
 
-.food__photo-img img{
-  object-fit: cover; 
+.food__photo-img img {
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
-@media (max-width: 1000px){
-  .food__photo-img{
+@media (max-width: 1000px) {
+  .food__photo-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
 }
-@media (min-width: 1000px){
-  .food__photo-img{
+
+@media (min-width: 1000px) {
+  .food__photo-img {
     display: flex;
-    flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  flex: 1;
   }
 }
-.food__photo-img img{
-  height: 100%;
-}
-
-
 
 
 .offers__menu-main {
@@ -87,7 +79,7 @@
 
 
 
-.button__button {
-  background-color: var(--button-hover-color);
-  color: var(--title-color);
+
+.button__menu {
+  text-align: center;
 }
