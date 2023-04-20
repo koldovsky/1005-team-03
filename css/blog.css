@@ -22,9 +22,9 @@
 
  .blog-container {
     margin-top: 50px;
-    box-sizing: content-box;
+    /* box-sizing: content-box;
     margin-left: 551px;
-    margin-right: 551px; 
+    margin-right: 551px;  */
 	justify-content: center;
 } 
 
