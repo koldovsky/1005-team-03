@@ -1,9 +1,9 @@
 .footer__top {
     border: 1px solid yellow;
     display: grid;
-    grid-template-columns: 250px 1fr 250px 250px;
+    grid-template-columns: 250px 1fr 280px 250px;
     padding: 80px 40px 60px 40px;
-    column-gap: 20px;
+    column-gap: 15px;
 }
 
 .footer__column-logo {
@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     text-align: start;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
 }
 
@@ -42,8 +42,12 @@
 
 .social-list_item {
     border: solid 1px #e9ae17;
-    padding: 5px;
-    border-radius: 1px;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .social-list_item:hover {
@@ -60,8 +64,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer__title {
@@ -70,14 +74,13 @@ ul {
 .footer__contacts-list,
 .footer-nav__list {
     text-align: start;
-    padding-top: 10px;
-}
+    }
 
 .footer-nav__item {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 17px;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .footer-nav__item a {
@@ -89,8 +92,8 @@ ul {
 }
 
 .footer__column-contacts {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid red;
     width: 100%;
     display: flex;
@@ -98,24 +101,35 @@ ul {
     align-items: flex-start;
 }
 
-.contacts-list__item{
+.footer__contacts-list {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-list__item {
     display: inline-flex;
-    align-items: center;
+    margin-top: 15px;
 }
 
 .contacts-list__text {
     color: #9D9D9D;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 14px;;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.contacts-list__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__subscribe-form {
     border: 1px solid yellow;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer__form {

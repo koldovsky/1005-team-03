@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 55" version="1.1" x="0px" y="0px" style="max-width:100%" height="100%">
-<title style="" fill="currentColor">305 - Location (Solid)</title>
-<desc style="" fill="currentColor">Created with Sketch.</desc>
-<g stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" style="">
-<g sketch:type="MSLayerGroup" fill="currentColor" style="">
-<path d="M33.383,5.617 C29.761,1.995 24.945,0 19.823,0 C14.7,0 9.885,1.995 6.264,5.617 C-0.44,12.319 -1.273,24.929 4.46,32.569 L19.823,54.757 L35.164,32.6 C40.919,24.929 40.086,12.319 33.383,5.617 L33.383,5.617 Z M20,26 C16.141,26 13,22.859 13,19 C13,15.141 16.141,12 20,12 C23.859,12 27,15.141 27,19 C27,22.859 23.859,26 20,26 L20,26 Z" sketch:type="MSShapeGroup" style="" fill="currentColor"></path></g></g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 39 55" version="1.1" x="0px" y="0px" style="max-width:100%" height="100%">
+<title style="" fill="#ffc123">305 - Location (Solid)</title>
+<desc style="" fill="#ffc123">Created with Sketch.</desc><g stroke="#ffc123" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" style="">
+<g sketch:type="MSLayerGroup" fill="#ffc123" style="">
+<path d="M33.383,5.617 C29.761,1.995 24.945,0 19.823,0 C14.7,0 9.885,1.995 6.264,5.617 C-0.44,12.319 -1.273,24.929 4.46,32.569 L19.823,54.757 L35.164,32.6 C40.919,24.929 40.086,12.319 33.383,5.617 L33.383,5.617 Z M20,26 C16.141,26 13,22.859 13,19 C13,15.141 16.141,12 20,12 C23.859,12 27,15.141 27,19 C27,22.859 23.859,26 20,26 L20,26 Z" sketch:type="MSShapeGroup" style="" fill="#ffc123">
+</path>
+</g>
+</g>
 </svg>
