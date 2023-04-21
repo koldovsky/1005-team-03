@@ -9,27 +9,36 @@
     <link rel="stylesheet" type="text/css" href="css/style-menu.css">
 </head>
 <body>
-    <!-- Marian Moh -->
-    <header class="header">
-        <nav class="header__nav container">
-            <div class="header__logo-container">
-                <a href="index.html"><img src="images/beer-logo.svg" width="182" alt="beer logo"></a>
+    <!-- Moh Marian -->
+    <section class="banner-bg banner-bg_origin">
+        <div class="container-section">
+            <nav class="navigation container">
+                <div class="navigation-logo">
+                    <a href="index.html"><img width="182" src="images/beer-logo.svg" alt="logo"></a>
+                    <div class="navigation-burger"><span></span></div>
+                </div>
+                <div class="navigation-wrapper">
+                    <div class="navigation-pages">
+                        <a href="#" class="navigations__menu navigation__link">Menu</a>
+                        <a href="#" class="navigations__friday navigation__link">Friday deal</a>
+                        <a href="#" class="navigations__blog navigation__link">Blog</a>
+                        <a href="#" class="navigations__contacts navigation__link">Contacts</a>
+                    </div>
+                    <div class="navigation-social">
+                        <a href="https://www.facebook.com/" target="blank"><img src="images/facebook-logo.svg"
+                                alt="facebook"></a>
+                        <a href="https://www.instagram.com/" target="blank"><img src="images/insta-logo.svg"
+                                alt="instagram"></a>
+                        <a href="https://tripadvisor.com/" target="blank"><img src="images/tripadvisor-logo.svg"
+                                alt="tripadvisor"></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__introductory-block introductory-block">
+                <h2 class="introductory-block__text">Menu</h2>
             </div>
-            <div class="header__menu menu">
-                <a href="#" class="menu__item">Menu</a>
-                <a href="#" class="menu__item">Friday deal</a>
-                <a href="#" class="menu__item">Blog</a>
-                <a href="#" class="menu__item">Contacts</a>
-            </div>
-            <div class="header__social-icons">
-                <a href="https://facebook.com"><img src="images/facebook-logo.svg" alt="facebook logo"></a>
-                <a href="https://instagram.com"><img src="images/insta-logo.svg" alt="instagram logo"></a>
-                <a href="https://tripadvisor.com"><img src="images/tripadvisor-logo.svg" alt="tripadvisor logo"></a>
-            </div>
-        </nav>
-        <div class="header__introductory-block introductory-block">
-            <h2 class="introductory-block__text">Menu</h2>
         </div>
+    </section>
     </header>
     <div class="container">
         <section class="bar-menu">
@@ -285,5 +294,6 @@
 
     <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@1.1.1/html-data-include.js"></script>
+    <script src="scripts/burger-menu.js"></script>
 </body>
 </html>

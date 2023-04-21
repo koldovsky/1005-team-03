@@ -1,7 +1,3 @@
-.menu__item {
-    display: none;
-}
-
 .introductory-block__text {
     color: var(--main-color);
     background-image: url("../images/background-menu.png");
@@ -132,7 +128,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .introductory-block__text {
         font-size: 64px;
         padding: 40px 0;
