@@ -1,5 +1,5 @@
 .offer-menu__container {
-    max-width: 1130px;
+    max-width: 1060px;
     margin: 0 auto;
     display: flex;
 }
@@ -32,20 +32,18 @@
 
 .offer-menu__menu {
     display:flex;
-    max-width: 800px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .offer-menu__menu .menu__item-deal:nth-child(even) {
-    max-width: 355px;
+    max-width: 370px;
     flex: 1 1 355px;
-    
 }
 
 .offer-menu__menu .menu__item-deal:nth-child(odd) {
     max-width: 370px;
-    flex: 1 1 370px;
-    margin-right: 3rem;
+    flex: 1 1 355px;
+    margin-right:3.5rem;
 }
 
 .menu__item-deal {
