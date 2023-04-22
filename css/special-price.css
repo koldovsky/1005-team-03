@@ -14,7 +14,7 @@
 
 .special-price-block__list li {
     list-style: none;
-    height:auto;
+    height: auto;
 }
 
 .special-price-background-image {
@@ -34,7 +34,7 @@
 }
 
 .special-price-picture__image {
-    max-width: fit-content;
+    max-width: 100%;
 }
 
 .special-price-block {
@@ -103,8 +103,8 @@
 
 .special-price-block__list-item-description {
     font-size: 17px;
-    font-family: "Open Sans", sans-serif;   
-    color: rgb(209,209,209);
+    font-family: "Open Sans", sans-serif;
+    color: rgb(209, 209, 209);
 }
 
 @media (min-width: 768px) {
@@ -130,9 +130,9 @@
     .special-price-block {
         margin-top: 0;
         flex-basis: 50%;
-        max-width: 50%;     
+        max-width: 50%;
         padding-left: 15px;
-        padding-right: 15px;       
+        padding-right: 15px;
     }
 
     .special-price-block__list {
@@ -145,7 +145,7 @@
 }
 
 @media (min-width: 992px) {
-    .special-price h3 {
+    /* .special-price h3 {
         font-size: 28px;
     }
 
@@ -155,7 +155,7 @@
 
     .special-price h5 {
         font-size: 38px;
-    }
+    } */
 
     .special-price-block__list-item-price {
         font-size: 38px;
