@@ -1,9 +1,7 @@
 .footer__top {
-    border: 1px solid yellow;
     display: grid;
     grid-template-columns: 300px 1fr 2fr 300px;
     padding: 80px 10px 60px 10px;
-    
 }
 
 .footer__column-logo {
@@ -40,8 +38,8 @@
 }
 
 .social-list_item {
-    border: solid 1px #e9ae17;
-    border-radius: 2px;
+    border: solid 1px var(--button-hover-color);
+    border-radius: 3px;
     width: 30px;
     height: 30px;
     display: flex;
@@ -51,7 +49,7 @@
 
 .social-list_item:hover {
     cursor: pointer;
-    background-color: #e9ae17;
+    background-color: var(--button-hover-color);
     transform: scale(1.3);
 }
 
@@ -74,7 +72,7 @@ ul {
 }
 
 .footer-nav__item a {
-    color: #9D9D9D;
+    color: var(--blog-text);
 }
     
 .footer-nav__item {
@@ -84,12 +82,11 @@ ul {
     margin-top: 15px;
 }
 
-
 .footer-nav__item a:hover {
     cursor: pointer;
     text-decoration: underline;
-    text-decoration-color: white;
-    color: #e9ae17;
+    text-decoration-color: var(--border-color-light:);
+    color: var(--button-hover-color);
 }
 
 .footer__column-contacts {
@@ -111,7 +108,7 @@ ul {
 }
 
 .contacts-list__text {
-    color: #9D9D9D;
+    color: var(--blog-text);
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -140,22 +137,27 @@ ul {
 .form_placeholder {
     width: auto;
     height: 60px;
-    border-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--button-black-color);
     background-color: rgba(255, 255, 255, 0.05);
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 40px;
 }
 
+.form_placeholder:focus {
+    outline: auto;
+    outline-color: var(--button-blue-color);
+}
+
 .form__button {
     width: auto;
     height: 55px;
-    border-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--main-color);
     background-color: var(--button-color);
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
-    font-weight: 600;
-    color: #111111;
+    font-weight: 700;
+    color: var(--main-color);
 }
 
 .form__button:hover {
@@ -163,8 +165,13 @@ ul {
 }
 
 .footer__copyright {
-    border: 1px solid green;
+    height: 65;
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px 20px 20px;
+    align-items: center;
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--blog-text);
 }
