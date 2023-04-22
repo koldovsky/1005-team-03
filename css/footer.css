@@ -1,7 +1,8 @@
 .footer__top {
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: 300px 1fr 2fr 300px;
-    padding: 80px 10px 60px 10px;
+    grid-template-columns: 2fr 1.5fr 2.5fr 2fr;
+    padding: 80px 40px 60px;
 }
 
 .footer__column-logo {
