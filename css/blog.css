@@ -22,16 +22,12 @@
 
  .blog-container {
     margin-top: 50px;
-    /* box-sizing: content-box;
-    margin-left: 551px;
-    margin-right: 551px;  */
-	justify-content: center;
 } 
 
 .blog-item-post {
     justify-content: center;
     margin-bottom: 40px;
-    /* width: 33%; */
+    gap: 20px;
 }
 
 .blog-item-post h3 {
@@ -83,6 +79,7 @@
 @media (min-width: 900px) {
     .blog-container {
         grid-template-columns: 1fr 1fr 1fr;
+
     }
 }
 
