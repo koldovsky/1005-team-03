@@ -23,6 +23,7 @@
     width: auto;
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .footer__text {
@@ -214,7 +215,7 @@ ul {
     }
 
     .footer__social {
-        margin: 25px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
         justify-content: flex-start;
         align-items: flex-end;
         gap: 7.5px;
