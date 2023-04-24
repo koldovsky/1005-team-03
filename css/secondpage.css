@@ -1,8 +1,42 @@
-.secondpage {
+.secondpage__container {
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+.menu__title,
+.menu__subtitle,
+.description {
     text-align: center;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
+
+}
+.bar-menu div p {
+    text-align: left;
+    display: block;
+
+    }
+
+.food-menu div p {
+    text-align: center;
+    display: block;
+}
+
+.happy-hour div p {
+    text-align: right;
+    display: block;
+}
+
+.bar-menu,
+.food-menu,
+.happy-hour {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    margin: 60px 60px 60px 80px;
+    padding: 15px 36px;
+}
+.container_menu {
+    margin: 60px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}    
+
