@@ -159,7 +159,7 @@ a {
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     h1 {
         font-size: 128px;
     }

@@ -23,20 +23,6 @@
     margin-bottom: 50px;
 }
 
-.collection {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.category {
-    width: 100%;
-    margin-top: 36px;
-}
-
-.category:first-child {
-    margin-top: 0;
-}
-
 .category__title {
     color: var(--button-color);
     margin-bottom: 40px;
@@ -101,18 +87,6 @@
 
     .initial-text__text {
         margin-top: 12px;
-    }
-
-    .collection {
-        justify-content: space-around;
-    }
-
-    .category {
-        width: 45%;
-    }
-
-    .category:nth-child(2) {
-        margin-top: 0;
     }
 
     .category__item__price {
