@@ -1,5 +1,6 @@
 .botteled-beer {
     padding-top: 105px;
+    border: thick double #32a1ce;
 }
 
 .ipa-title, .lager-title, .bitter-title {
@@ -26,6 +27,7 @@
 }
 
 .botteled-beer__text {
+    border: thick double red;   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,36 +39,32 @@
 
 .botteled-beer__carousel {
     display: flex;
+    border: thick double green;
     justify-content: center;
+    width: 1200px;
+    overflow: hidden;
 }
 
-.botteled-beer__carousel_ipa {
+.botteled-beer__carousel_ipa, .botteled-beer__carousel_lager, .botteled-beer__carousel_bitter {
+    border: thick double yellow;
     display: flex;
-}
-
-.ipa__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    width: 600px;
 }
 
 .botteled-beer__carousel_lager {
-    display: flex;
+    overflow: hidden;
 }
 
-.lager__text {
+.lager__text, .ipa__text, .bitter__text  {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.botteled-beer__carousel_bitter {
+.carousel{
+    
     display: flex;
-}
+    justify-content: center;  
+} 
 
-.bitter__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
