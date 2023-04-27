@@ -105,8 +105,8 @@ section div nav .navigation-logo img {
     }
     section div nav .navigation-pages {
       position: relative;
-      font-size: 0.92rem;
-      font-weight: 700;
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
       line-height: 3rem;
       display: flex;
       flex-direction: column;
@@ -124,7 +124,7 @@ section div nav .navigation-logo img {
       > div.navigation-wrapper.active
       > div.navigation-pages
       > a {
-      color: var(--title-color);
+      color: var(--subtitle-color);
       opacity: 0.8;
     }
     body
@@ -135,11 +135,11 @@ section div nav .navigation-logo img {
       > div.navigation-wrapper.active
       > div.navigation-pages
       > a:hover {
-      color: var(--title-color);
+      color: var(--subtitle-color);
     }
   
     section div nav .navigation-pages a:hover {
-      color: var(--title-color);
+      color: var(--subtitle-color);
     }
   
     section div nav .navigation-social {
@@ -184,7 +184,7 @@ section div nav .navigation-logo img {
     section div nav.navigation {
       display: flex;
       justify-content: space-between;
-      padding-top: 40px;
+      padding: 40px 100px;
     }
   
     section div nav .navigation-pages,
@@ -203,9 +203,9 @@ section div nav .navigation-logo img {
     }
   
     section div nav .navigation-pages {
-      font-size: 0.92rem;
-      font-weight: 700;
-      color: var(--nav-pages-color);
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      color: var(--subtitle-color);
       min-width: 480px;
       display: flex;
       justify-content: space-around;
@@ -213,14 +213,14 @@ section div nav .navigation-logo img {
     }
     section div nav .navigation-pages a {
       position: relative;
-      font-size: 0.91rem;
-      color: var(--title-color);
-      font-weight: 700;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      color: var(--subtitle-color);
       text-decoration: none;
       line-height: 1.5rem;
     }
     section div nav .navigation-pages a:hover {
-      color: var(--title-color);
+      color: var(--subtitle-color);
       cursor: pointer;
     }
     section div nav .navigation-pages a:after {
@@ -231,7 +231,7 @@ section div nav .navigation-logo img {
       width: 0;
       height: 3px;
       border-radius: 0.1rem;
-      background-color: var(--title-color);
+      background-color: var(--subtitle-color);
       transition: width 0.2s ease-in;
     }
     section div nav .navigation-pages a:hover:after {
@@ -256,3 +256,4 @@ section div nav .navigation-logo img {
 section div .banner {
       padding: 100px 0 130px 0;
 }
+
