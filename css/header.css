@@ -14,6 +14,7 @@ section div nav .navigation-logo img {
     max-width: 182px;
 }
 
+
 .navigation {
   background-color: var(--main-color);
   padding: 30px;
@@ -220,7 +221,7 @@ section div nav .navigation-logo img {
       line-height: 1.5rem;
     }
     section div nav .navigation-pages a:hover {
-      color: var(--subtitle-color);
+      color: var(--title-color);
       cursor: pointer;
     }
     section div nav .navigation-pages a:after {
@@ -231,7 +232,7 @@ section div nav .navigation-logo img {
       width: 0;
       height: 3px;
       border-radius: 0.1rem;
-      background-color: var(--subtitle-color);
+      background-color: var(--title-color);
       transition: width 0.2s ease-in;
     }
     section div nav .navigation-pages a:hover:after {
@@ -254,6 +255,52 @@ section div nav .navigation-logo img {
   }
 
 section div .banner {
-      padding: 100px 0 130px 0;
+  padding: 110px 0 120px 0;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  }
+  
+section div .banner__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
+div .banner__text h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  color: var(--title-color);
+  
+}
+div .banner__text p {
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 28px;
+  color: var(--title-color);
+  }
+div .links {
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div .links a {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  section div .banner {
+    width: 50%;
+    float: right;
+  }
+}
