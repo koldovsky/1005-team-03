@@ -1,13 +1,35 @@
-.beer-brands-carousel__background {
-    background: #ffc123;
+.beer-brands-carousel {
+    background-color: #ffc123;
+
 }
 
 .beer-brands-carousel__images-container {
     display: flex;
-    width: 250px;
-    position: relative;
+    max-width: 90%;
+}
+
+.beer-brands-carousel__images {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.beer-brands-carousel__image-block {
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px; 
+    background: rgba(17, 17, 17, 0.05);
+    object-fit: contain;
+    object-position: 50% 50%;
+    align-items: center;
 }
 
 .beer-brands-carousel__image {
-    max-width: 250px; 
+    display: inline-block;
+    object-fit: contain;
+    width: 100%;
+    /* max-width: 179px; */
+    padding: 15px;
 }
+
