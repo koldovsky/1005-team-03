@@ -1,0 +1,104 @@
+.collection__carousel {
+   position: relative;
+   overflow: hidden;
+}
+
+.collection__carousel__inner {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+}
+
+.category {
+   flex: 0 0 100%;
+   padding: 0 24px;
+}
+
+.carousel__btn {
+   position: absolute;
+   top: 50%;
+   width: 30px;
+   height: 36px;
+
+   border: none;
+   background: none;
+   cursor: pointer;
+}
+
+.carousel__btn-prev {
+   left: -3px;
+}
+
+.carousel__btn-next {
+   right: -3px;
+}
+
+.carousel__btn span {
+   display: block;
+   position: relative;
+   width: 12px;
+   height: 12px;
+
+   border-top: 2px solid #fff;
+   border-left: 2px solid #fff;
+   opacity: .8;
+   z-index: 50;
+   margin: auto;
+}
+
+.carousel__btn-prev span {
+   transform: rotate(-45deg);
+}
+
+.carousel__btn-next span {
+   transform: rotate(135deg);
+}
+
+.carousel__btn span:hover {
+   opacity: 1;
+}
+
+@media (min-width: 375px) {
+   .collection__carousel {
+      padding: 0 5px;
+   }
+
+   .carousel__btn span {
+      width: 14px;
+      height: 14px;
+   }
+}
+
+@media (min-width: 425px) {
+   .collection__carousel {
+      padding: 0 8px;
+   }
+}
+
+@media (min-width: 600px) {
+   .carousel__btn span {
+      width: 15px;
+      height: 15px;
+   }
+}
+
+@media (min-width: 767px) {
+   .collection__carousel {
+      padding: 0 14px;
+   }
+
+   .category {
+      flex: 0 0 50%;
+      padding: 0 18px;
+   }
+
+   .carousel__btn span {
+      width: 16px;
+      height: 16px;
+   } 
+}
+
+@media (min-width: 992px) {
+   .collection__carousel {
+      padding: 0 17px;
+   }
+}
