@@ -1,3 +1,13 @@
 .beer-brands-carousel__background {
     background: #ffc123;
 }
+
+.beer-brands-carousel__images-container {
+    display: flex;
+    width: 250px;
+    position: relative;
+}
+
+.beer-brands-carousel__image {
+    max-width: 250px; 
+}
