@@ -35,14 +35,11 @@
   width: 100%;
 }
 
-
-
 .food__photo-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
-
 
 @media (min-width: 1000px) {
   .food__photo-img {
@@ -97,6 +94,7 @@
     gap: 30px;
   }
 }
+
 
 
 
