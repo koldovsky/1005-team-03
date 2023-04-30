@@ -35,19 +35,17 @@
   width: 100%;
 }
 
-
-
-  .food__photo-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-  }
-
+.food__photo-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
 
 @media (min-width: 1000px) {
   .food__photo-img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .foodphoto-img div {
     height: 200px;
   }
@@ -96,6 +94,7 @@
     gap: 30px;
   }
 }
+
 
 
 
