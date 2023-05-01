@@ -67,25 +67,3 @@ const btnPrev = document.querySelector('.beer-brands-carousel__images-button-nex
 btnPrev.addEventListener('click', nextSlide);
 
 window.addEventListener('resize', showCurrentSlide);
-
-
-// function showCurrentSlide() {
-//     const slideContainer = document.querySelector('.beer-brands-carousel__images-container');
-//     slideContainer.innerHTML = slides[currentSlide];
-//     switch (true) {
-//         case window.innerWidth >= 479:
-//             const secondSlideIdx = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-//             slideContainer.innerHTML += slides[secondSlideIdx];
-//             break;
-//         case window.innerWidth >= 767:
-//             const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-//             slideContainer.innerHTML += slides[thirdSlideIdx];
-//             break;
-//         case window.innerWidth >= 991:
-//             const fourthSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
-//             slideContainer.innerHTML += slides[fourthSlideIdx];
-//             const fifthSlideIdx = fourthSlideIdx + 1 >= slides.length ? 0 : fourthSlideIdx + 1;
-//             slideContainer.innerHTML += slides[fifthSlideIdx];
-//             break;
-//     }
-// }
