@@ -1,23 +1,23 @@
-const slides = [`
-<div class="beer-brands-carousel__image-block">
+const slides = [
+`<div class="beer-brands-carousel__image-block">
+    <img class="beer-brands-carousel__image" src="images/carousel_logo_corona.svg" alt="Corona">
+</div>`,
+`<div class="beer-brands-carousel__image-block">
     <img class="beer-brands-carousel__image" src="images/carousel_logo_miller.svg" alt="Miller">
 </div>`,
 `<div class="beer-brands-carousel__image-block">
     <img class="beer-brands-carousel__image" src="images/carousel_logo_hoegaarden.svg" alt="Hoegaarden">
 </div>`,
 `<div class="beer-brands-carousel__image-block">
-    <img class="beer-brands-carousel__image" src="images/carousel_logo_corona.svg" alt="Corona">
-</div>`,
-`<div class="beer-brands-carousel__image-block">
-    <img class="beer-brands-carousel__image" src="images/carousel_logo_heineken.svg" alt="Heineken">
-</div>`,
-`<div class="beer-brands-carousel__image-block">
     <img class="beer-brands-carousel__image" src="images/carousel_logo_carlsberg.svg" alt="Carlsberg">
 </div>`,
 `<div class="beer-brands-carousel__image-block">
     <img class="beer-brands-carousel__image" src="images/carousel_logo_budweiser.svg" alt="Budweiser">
-</div>   
-`];
+</div>`,
+`<div class="beer-brands-carousel__image-block">
+    <img class="beer-brands-carousel__image" src="images/carousel_logo_heineken.svg" alt="Heineken">
+</div>`
+];
 
 let currentSlide = 0;
 
