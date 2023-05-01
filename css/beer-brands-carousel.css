@@ -33,3 +33,8 @@
     padding: 15px;
 }
 
+.beer-brands-carousel__images-button-prev {
+    fill:black;
+    width: 20px;
+    z-index: 1;
+}
