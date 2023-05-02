@@ -32,10 +32,6 @@
     max-width: 164px;
 }
 
-.offer__beer {
-    color: var(--button-color);
-}
-
 .offer-menu__menu {
     display:flex;
     flex-direction: column;
