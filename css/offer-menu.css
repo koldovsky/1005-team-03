@@ -38,9 +38,6 @@
 }
 
 .menu__item-deal {
-    color: var(--subtitle-color);
-    font-size: 17px;
-    font-family: "Open Sans", sans-serif;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -51,6 +48,12 @@
     max-width: 200px;
 }
 
+.menu__item-deal-about-text 
+{
+    color: var( --blog-text);
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+}
 
 @media (min-width: 1057.99px) {
     .offer-menu__container {
