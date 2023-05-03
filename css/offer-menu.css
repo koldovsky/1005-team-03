@@ -29,8 +29,17 @@
 }
 
 .offer__button {
+    display: inline-block;
+    font-size: 12px;
     max-width: 164px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    
+
 }
+
+
 
 .offer-menu__menu {
     display:flex;

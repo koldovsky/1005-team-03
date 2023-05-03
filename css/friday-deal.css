@@ -21,7 +21,14 @@
     margin-bottom: 35px;
 }
 
-.friday-deal__button {
+.friday-deal__button{
     background-color: var(--main-color);
     color: var(--title-color);
+    display: inline-block;
+    max-width: 200px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px 38px;
+    text-align: center;
 }
