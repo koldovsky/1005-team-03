@@ -38,6 +38,9 @@
 }
 
 .menu__item-deal {
+    color: var(--subtitle-color);
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
