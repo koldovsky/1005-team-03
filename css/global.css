@@ -126,6 +126,7 @@ a {
 @media (min-width: 767px){
     h1 {
         font-size: 95px;
+        word-break: break-word;
     }
     
     h2 {
