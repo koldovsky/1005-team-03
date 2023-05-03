@@ -1,267 +1,273 @@
 header .banner-bg {
-    min-height: 75vh;
-    background-size: cover;
-    background-position: 43.44% 84.95%;
+  background-size: cover;
+  background-position: 43.44% 84.95%;
 }
 
 header .banner-bg_origin {
-    background: url(../images/beer-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url(../images/beer-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 section div nav .navigation-logo img {
-    max-width: 182px;
+  max-width: 182px;
 }
-
 
 .navigation {
   background-color: var(--main-color);
-  padding: 30px;
+  padding: 0 30px;
 }
 
 @media (max-width: 990px) {
-    body.lock {
-      overflow: hidden;
-    }
-    section div nav .navigation-logo {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding: 30px 0;
-      z-index: 10;
-    }
-    section div nav .navigation-burger {
-      display: block;
-      position: relative;
-      width: 30px;
-      height: 20px;
-      padding: 12px;
-      cursor: pointer;
-      z-index: 5;
-    }
-    section div nav .navigation-burger span,
-    section div nav .navigation-burger::before,
-    section div nav .navigation-burger::after {
-      position: absolute;
-      left: 0;
-      height: 2px;
-      width: 100%;
-      background-color: var(--banner-h-color);
-      transition: all 0.5s ease-in-out;
-    }
-    section div nav .navigation-burger span {
-      transform: scale(1);
-    }
-    section div nav .navigation-burger::before,
-    section div nav .navigation-burger::after {
-      content: " ";
-    }
-    section div nav .navigation-burger::before {
-      top: 0;
-    }
-    section div nav .navigation-burger::after {
-      bottom: 0;
-    }
-    section div nav .navigation-burger.active span {
-      transform: scale(0);
-    }
-    section div nav .navigation-burger.active::before {
-      top: 50%;
-      transform: rotate(-45deg);
-    }
-    section div nav .navigation-burger.active::after {
-      bottom: 40%;
-      transform: rotate(45deg);
-    }
-    header section div.container-section {
-      position: relative;
-    }
-    section div nav.navigation .navigation-wrapper {
-      position: fixed;
-      top: -100%;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: var(--light-text-color);
-      z-index: 2;
-      transition: top 0.3s ease-in;
-      padding: 15px 24px 50px 24px;
-      transition: top 0.3s ease-in 0.1s;
-      overflow: hidden;
-      margin: auto;
-    }
-  
-    section div nav.navigation .navigation-wrapper.active {
-      top: 0;
-    }
-  
-    section div nav.navigation.active {
-      top: 0;
-    }
-    section div nav .navigation-pages {
-      position: relative;
-      font-family: "Open Sans", sans-serif;
-      font-size: 17px;
-      line-height: 3rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      height: auto;
-      z-index: 10;
-      padding-top: 100px;
-    }
-    body
-      > header
-      > section
-      > div
-      > nav
-      > div.navigation-wrapper.active
-      > div.navigation-pages
-      > a {
-      color: var(--subtitle-color);
-      opacity: 0.8;
-    }
-    body
-      > header
-      > section
-      > div
-      > nav
-      > div.navigation-wrapper.active
-      > div.navigation-pages
-      > a:hover {
-      color: var(--subtitle-color);
-    }
-  
-    section div nav .navigation-pages a:hover {
-      color: var(--subtitle-color);
-    }
-  
-    section div nav .navigation-social {
-      position: relative;
-      min-width: 172px;
-      max-width: 200px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: auto;
-    }
-  
-    section div nav .navigation-social img {
-      max-width: 28px;
-      border-radius: 0.4rem;
-    }
-  }
-  @media (min-width: 480px) {
-    .container-top_flex {
-      display: flex;
-      flex-direction: column;
-      max-width: 431px;
-    }
-  }
-  @media (min-width: 768px) {
-    header .banner-bg {
-      min-height: 983px;
-    }
-    .container-top_flex {
-      max-width: 785px;
-    }
-  }
-  
-  @media (min-width: 991px) {
-    .container-top_flex {
-      max-width: 944px;
-      margin: auto;
-    }
-    section div nav .navigation-burger {
-      display: none;
-    }
-    section div nav.navigation {
-      display: flex;
-      justify-content: space-between;
-      padding: 40px 100px;
-    }
-  
-    section div nav .navigation-pages,
-    .navigation-social {
-      display: flex;
-    }
-    header .banner-bg {
-      min-height: calc(100vh - 79px);
-    }
-  
-    section div .navigation .navigation-wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 75%;
-    }
-  
-    section div nav .navigation-pages {
-      font-size: 15px;
-      font-family: "Open Sans", sans-serif;
-      color: var(--subtitle-color);
-      min-width: 480px;
-      display: flex;
-      justify-content: space-around;
-      height: auto;
-    }
-    section div nav .navigation-pages a {
-      position: relative;
-      font-family: "Open Sans", sans-serif;
-      font-size: 15px;
-      color: var(--subtitle-color);
-      text-decoration: none;
-      line-height: 1.5rem;
-    }
-    section div nav .navigation-pages a:hover {
-      color: var(--title-color);
-      cursor: pointer;
-    }
-    section div nav .navigation-pages a:after {
-      content: " ";
-      display: block;
-      position: absolute;
-      left: 0;
-      width: 0;
-      height: 3px;
-      border-radius: 0.1rem;
-      background-color: var(--title-color);
-      transition: width 0.2s ease-in;
-    }
-    section div nav .navigation-pages a:hover:after {
-      width: 100%;
-    }
-    section div nav .navigation-social {
-      min-width: 172px;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    section div nav .navigation-social img {
-      max-width: 28px;
-      border-radius: 0.4rem;
-    }
-    section div nav .navigation-social a:hover {
-      max-width: 32px;
-      transform: scale(2);
-    }
+  body.lock {
+    overflow: hidden;
   }
 
+  section div nav .navigation-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 10;
+  }
+
+  section div nav .navigation-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  section div nav .navigation-burger span,
+  section div nav .navigation-burger::before,
+  section div nav .navigation-burger::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--banner-h-color);
+    transition: all 0.5s ease-in-out;
+  }
+
+  section div nav .navigation-burger span {
+    transform: scale(1);
+  }
+
+  section div nav .navigation-burger::before,
+  section div nav .navigation-burger::after {
+    content: " ";
+  }
+
+  section div nav .navigation-burger::before {
+    top: 0;
+  }
+
+  section div nav .navigation-burger::after {
+    bottom: 0;
+  }
+
+  section div nav .navigation-burger.active span {
+    transform: scale(0);
+  }
+
+  section div nav .navigation-burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  section div nav .navigation-burger.active::after {
+    bottom: 40%;
+    transform: rotate(45deg);
+  }
+
+  header section div.container-section {
+    position: relative;
+  }
+
+  section div nav.navigation .navigation-wrapper {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-text-color);
+    z-index: 2;
+    transition: top 0.3s ease-in;
+    padding: 15px 24px 50px 24px;
+    transition: top 0.3s ease-in 0.1s;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  section div nav.navigation .navigation-wrapper.active {
+    top: 0;
+  }
+
+  section div nav.navigation.active {
+    top: 0;
+  }
+
+  section div nav .navigation-pages {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    z-index: 10;
+    padding-top: 100px;
+  }
+
+  body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a {
+    color: var(--subtitle-color);
+    opacity: 0.8;
+  }
+
+  body>header>section>div>nav>div.navigation-wrapper.active>div.navigation-pages>a:hover {
+    color: var(--subtitle-color);
+  }
+
+  section div nav .navigation-pages a:hover {
+    color: var(--subtitle-color);
+  }
+
+  section div nav .navigation-social {
+    position: relative;
+    min-width: 172px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  section div nav .navigation-social img {
+    max-width: 28px;
+    border-radius: 0.4rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .container-top_flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 431px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .banner-bg {
+    min-height: 983px;
+  }
+
+  .container-top_flex {
+    max-width: 785px;
+  }
+}
+
+@media (min-width: 991px) {
+  .container-top_flex {
+    max-width: 944px;
+    margin: auto;
+  }
+
+  section div nav .navigation-burger {
+    display: none;
+  }
+
+  section div nav.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+  }
+
+  section div nav .navigation-pages,
+  .navigation-social {
+    display: flex;
+  }
+
+  section div .navigation .navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+  }
+
+  section div nav .navigation-pages {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-color);
+    min-width: 480px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  section div nav .navigation-pages a {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: var(--subtitle-color);
+    text-decoration: none;
+    line-height: 1.5rem;
+  }
+
+  section div nav .navigation-pages a:hover {
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
+  section div nav .navigation-pages a:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 0.1rem;
+    background-color: var(--title-color);
+    transition: width 0.2s ease-in;
+  }
+
+  section div nav .navigation-pages a:hover:after {
+    width: 100%;
+  }
+
+  section div nav .navigation-social {
+    min-width: 172px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  section div nav .navigation-social img {
+    max-width: 28px;
+    border-radius: 0.4rem;
+  }
+
+  section div nav .navigation-social a:hover {
+    max-width: 32px;
+    transform: scale(2);
+  }
+}
+
 section div .banner {
-  padding: 110px 0 120px 0;
   text-align: center;
   align-items: center;
   flex-direction: column;
   display: flex;
-  }
-  
+}
+
 section div .banner__text {
   display: flex;
   flex-direction: column;
@@ -271,22 +277,22 @@ section div .banner__text {
 
 div .banner__text h1 {
   font-family: "Teko", sans-serif;
-  font-size: 100px;
-  font-weight: 400;
   color: var(--title-color);
-  
+  line-height: 1;
 }
+
 div .banner__text p {
   font-family: "Shadows Into Light", sans-serif;
-  font-size: 28px;
   color: var(--title-color);
-  }
+}
+
 div .links {
   margin-top: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 div .links a {
   font-size: 0.85rem;
   letter-spacing: 1px;
@@ -298,9 +304,67 @@ div .links a {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
+  section div .banner {
+    padding: 130px 0 110px 0;
+  }
+
+  div .banner__text p {
+    font-size: 14px;
+  }
+
+  div .banner__text h1 {
+    font-size: 62px;
+  }
+
+  div .banner__text h4 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 767px) {
   section div .banner {
     width: 50%;
     float: right;
+    padding: 190px 0 170px 0;
+  }
+
+  header .banner-bg_origin {
+    height: calc(100vh - 360px);
+  }
+
+  div .banner__text p {
+    font-size: 21px;
+  }
+
+  div .banner__text h1 {
+    font-size: 95px;
+    white-space: pre-wrap;
+  }
+
+  div .banner__text h4 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 992px) {
+  section div .banner {
+    padding: 200px 0 180px 0;
+  }
+
+  div .banner__text p {
+    font-size: 28px;
+  }
+
+  div .banner__text h1 {
+    font-size: 128px;
+  }
+
+  div .banner__text h4 {
+    font-size: 19px;
+  }
+
+  header .banner-bg {
+    height: calc(100vh - 580px);
   }
 }
