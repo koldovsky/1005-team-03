@@ -59,15 +59,6 @@
     margin-right: 5px;
 }
 
-.special-price-block__underline {
-    height: 1px;
-    min-width: 10px;
-    margin: 20px 0 10px 0;
-    flex: 1 1;
-    background: #fff;
-    opacity: .2;
-}
-
 .special-price-block__list {
     margin-top: 25px;
     display: flex;
@@ -102,6 +93,7 @@
 
 .special-price-block__list-item-title-price {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     border-image-repeat: stretch;
