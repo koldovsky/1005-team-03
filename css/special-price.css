@@ -4,10 +4,6 @@
     justify-content: center;
 }
 
-.special-price h3 {
-    font-size: 14px;
-}
-
 .special-price h2 {
     letter-spacing: normal;
 }
@@ -113,11 +109,14 @@
     color: rgb(209, 209, 209);
 }
 
-@media (min-width: 768px) {
+/* Temporary */
+@media (max-width: 767px) {
     .special-price h3 {
-        font-size: 21px;
+        font-size: 14px;
     }
+}
 
+@media (min-width: 768px) {
     .special-price__content {
         padding: 110px 32px;
     }
