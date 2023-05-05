@@ -1,11 +1,11 @@
 .beer-brands-carousel {
     background-color: #ffc123;
-
+    min-width: 330px;
 }
 
 .beer-brands-carousel__images-container {
     display: flex;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .beer-brands-carousel__images {
@@ -16,10 +16,10 @@
 }
 
 .beer-brands-carousel__image-block {
-    width: 235px;
+    width: 310px;
     display: flex;
     justify-content: center;
-    margin: 15px 15px; 
+    margin: 15px -11px; 
     background: rgba(17, 17, 17, 0.05);
     object-fit: contain;
     object-position: 50% 50%;
@@ -27,76 +27,100 @@
 }
 
 .beer-brands-carousel__image {
-    display: inline-block;
     object-fit: contain;
     width: 100%;
-    /* padding: 15px; */
-    height: 30px;
+    height: 60px;
     margin: 35px 0;
 }
 
 .beer-brands-carousel__images-button-prev {
-    fill:black;
     width: 20px;
-    z-index: 1;
 }
 
 .beer-brands-carousel__images-button-next {
-    fill:black;
     width: 20px;
-    z-index: 1;
 }
 
 .beer-brands-carousel__images-button {
-    width: 32px;
-    height: 32px;
-    background: center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.85;
     border: none;
 }
 
-/* .beer-brands-carousel__images-button-bgr {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    transform: translate(-50%,-50%);
-} */
-
 .beer-brands-carousel_arrow {
-    width: 20px;
-    height: 20px;
-    fill:#111111;
+    width: 15px;
+    height: 19px;
     vertical-align: middle;
+    opacity: 0.25;
 }
 
+@media (min-width: 478px) {
+    .beer-brands-carousel__images {
+        padding: 10px 10px;
+    }
+    
+    .beer-brands-carousel__image-block {
+        margin: 15px 13px; 
+    }
 
+    .beer-brands-carousel__images-container {
+        max-width: 90%;
+        margin: 0 -24px;
+    }
 
-@media (max-width:1200px) {
+    .beer-brands-carousel__image {
+        object-fit: contain;
+        width: 100%;
+        height: 33px;
+        margin: 35px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .beer-brands-carousel__images-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .beer-brands-carousel__images-container {
+        margin: 0 -28px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .beer-brands-carousel__images {
+        padding: 14px 10px;
+    }
     .beer-brands-carousel__images-button {
         display: inline-block;
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: #000;
+        background: content-box;
         z-index: 1;
         opacity: 0.85;
         border: none;
     }
 
     .beer-brands-carousel__images-button-prev {
-        transform: translate(95%);
+        transform: translate(-100%);
     }
     
     .beer-brands-carousel__images-button-next {
-        transform: translate(-95%);
+        transform: translate(100%);
     }
-}
 
-@media (max-width:767px) {
-    .beer-brands-carousel__images-button {
-        width: 24px;
-        height: 24px;
+    .beer-brands-carousel__images-container {
+        max-width: 92%;
+    }
+
+    .beer-brands-carousel_arrow {
+        width: 25px;
+        height: 25px;
+        opacity: 1;
     }
 }

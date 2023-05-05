@@ -19,6 +19,7 @@
 
 .special-price-background-image {
     background-image: url(../images/background_friday_menu_gs.png);
+    background-attachment: fixed;
 }
 
 .special-price__content {
