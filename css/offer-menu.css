@@ -29,12 +29,17 @@
 }
 
 .offer__button {
+    display: inline-block;
+    font-size: 12px;
     max-width: 164px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    
+
 }
 
-.offer__beer {
-    color: var(--button-color);
-}
+
 
 .offer-menu__menu {
     display:flex;
@@ -52,6 +57,12 @@
     max-width: 200px;
 }
 
+.menu__item-deal-about-text 
+{
+    color: var( --blog-text);
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+}
 
 @media (min-width: 1057.99px) {
     .offer-menu__container {

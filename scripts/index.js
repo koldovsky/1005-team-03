@@ -4,5 +4,6 @@ document.addEventListener("partialsLoaded", () => {
    import('./beer-brands-carousel.js');
    import('./showtext.js');
    import('./add-underlines.js');
+   import('./dynamic-coloring.js');
 });
 

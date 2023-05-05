@@ -155,7 +155,24 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: start;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blog-text);
+    padding-left: 40px;
 }
+
+input[name="email"] {
+    color: var(--blog-text);
+  }
+
+  input[name="email"]:valid {
+    color: var(--blog-text);
+  }
+
+  input[name="email"]:invalid {
+    color: red;
+  }
 
 .form_placeholder:focus {
     outline: auto;
@@ -263,7 +280,6 @@ ul {
     }
     .form_placeholder {
         width: 100%;
-        padding-left: 40px;
     }
 
     .form__button {

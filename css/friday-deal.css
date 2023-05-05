@@ -10,18 +10,30 @@
 
 .friday-deal__discount {
     margin-bottom: 20px;
-    color: var(--main-color);
+    color:var(--dark-button-color);
 }
 
 .friday-deal__title {
     margin-bottom: 35px;
+    
 }
 
 .friday-deal__text {
     margin-bottom: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color:var( --dark-button-color);
 }
 
-.friday-deal__button {
+.friday-deal__button{
+    font-family: "Open Sans", sans-serif;
     background-color: var(--main-color);
     color: var(--title-color);
+    display: inline-block;
+    max-width: 180px;
+    font-size: 11px;
+    font-weight: 350;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    text-align: center;
 }
