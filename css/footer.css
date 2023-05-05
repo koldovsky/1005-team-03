@@ -155,6 +155,11 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: start;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--blog-text);
+    padding-left: 40px;
 }
 
 .form_placeholder:focus {
@@ -193,6 +198,9 @@ ul {
     margin: 10px 0px;
 }
 
+.footer__clock {
+    color: red;
+}
 @media (min-width: 767px) {    
     .footer__top {
         display: grid;
@@ -263,7 +271,6 @@ ul {
     }
     .form_placeholder {
         width: 100%;
-        padding-left: 40px;
     }
 
     .form__button {
