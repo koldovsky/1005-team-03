@@ -162,6 +162,18 @@ ul {
     padding-left: 40px;
 }
 
+input[name="email"] {
+    color: var(--blog-text);
+  }
+
+  input[name="email"]:valid {
+    color: var(--blog-text);
+  }
+
+  input[name="email"]:invalid {
+    color: red;
+  }
+
 .form_placeholder:focus {
     outline: auto;
     outline-color: var(--button-blue-color);
@@ -198,9 +210,6 @@ ul {
     margin: 10px 0px;
 }
 
-.footer__clock {
-    color: red;
-}
 @media (min-width: 767px) {    
     .footer__top {
         display: grid;
