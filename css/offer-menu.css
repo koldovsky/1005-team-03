@@ -67,6 +67,10 @@
         padding-left: 15px;
     }
 
+    .offer-menu .offer-menu__container {
+        margin-bottom: 80px;
+    }
+
     .offer__subtitle {
         max-width: 400px;
     }
