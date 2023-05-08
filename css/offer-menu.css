@@ -68,6 +68,7 @@
         margin-right: 3rem;
         margin-bottom: 2.5rem;
         padding: 0;
+        padding-left: 45px;
     }
 
     .offer__subtitle {
@@ -129,7 +130,7 @@
 
 @media (min-width: 991.99px) {
     .offer-menu__container {
-        width: 100%;
+        width: 1060px;
         flex-direction: row;
         margin: 0 auto;
         padding-top: 60px;
