@@ -3,15 +3,24 @@
     margin: 0 20px;
 }
 
+
 .menu__title,
 .menu__subtitle,
 .description {
     text-align: center;
+    }
 
-}
+.menu__title {
+    margin: 30px;
+}    
+.menu__subtitle {
+    margin: 30px;
+}    
+
 .bar-menu div p {
     text-align: left;
     display: block;
+
 
     }
 
@@ -30,13 +39,135 @@
 .happy-hour {
     display: inline-block;
     text-align: center;
-    width: 350px;
-    margin: 60px 60px 60px 80px;
-    padding: 15px 36px;
+    width: 375px;
+    margin: 0 0 60px 0;
+    padding: 0px 36px;
 }
 .container_menu {
     margin: 60px 0 60px 0;
     display: flex;
     justify-content: center;
 }    
+.bar-menu {
+    position: relative;
+}
+.bar_menu_wrapper {
+    position: absolute;
+    top: 250px;
+   opacity: 0;
+   transition: opacity 0.4s ease-in-out;  
+}
+.bar_menu_wrapper:hover {
+    position: absolute;
+    top: 250px;
+   opacity: 100%;
+   transition: opacity 0.4s ease-in-out;
 
+}
+.bar_menu h2 {
+    position: absolute;
+    
+}
+
+.bar-menu img {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+.bar-menu:hover img {
+    opacity: 0.2;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+.food-menu {
+    position: relative;
+}
+.food_menu_wrapper {
+    position: absolute;
+    top: 250px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;  
+    
+}
+.food_menu_wrapper:hover {
+    position: absolute;
+    top: 250px;
+    opacity: 100%;
+    transition: opacity 0.4s ease-in-out;
+ 
+
+}
+.food_menu h2 {
+    position: absolute;
+
+}
+.food-menu:hover img {
+    opacity: 0.2;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+
+.happy-hour {
+    position: relative;
+}
+.happy_hour_wrapper {
+    position: absolute;
+    top: 250px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out; 
+    
+}
+.happy_hour_wrapper:hover {
+    position: absolute;
+    top: 250px;
+    opacity: 100%;
+    transition: opacity 0.4s ease-in-out;
+
+}
+.happy_hour h2 {
+    position: absolute;
+
+}
+
+.happy-hour:hover img {
+    opacity: 0.2;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .secondpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+/* стилі для маленьких екранів */
+@media only screen and (max-width: 768px) {
+  .secondpage__container {
+    padding: 20px;
+  }
+
+  .container_menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__subtitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .bar-menu, .food-menu, .happy-hour {
+    margin-top: 40px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
