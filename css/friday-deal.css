@@ -2,6 +2,7 @@
     text-align: center;
     background-image: url(../images/background_friday.png);
     color: var(--main-color);
+    margin-bottom: 40px;
 } 
 
 .friday-deal__container {

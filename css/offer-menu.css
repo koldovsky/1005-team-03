@@ -35,11 +35,7 @@
     padding: 15px 40px;
     text-transform: uppercase;
     text-align: center;
-
-
 }
-
-
 
 .offer-menu__menu {
     display: flex;
@@ -68,7 +64,7 @@
         margin-right: 3rem;
         margin-bottom: 2.5rem;
         padding: 0;
-        padding-left: 45px;
+        padding-left: 15px;
     }
 
     .offer__subtitle {
@@ -86,6 +82,12 @@
     .menu__item-deal {
         justify-content: flex-start;
         padding: 0px;
+    }
+}
+
+@media (min-width: 1109.99px) {
+    .offer-menu__container .offer-menu__offer {
+        padding: 0;
     }
 }
 
