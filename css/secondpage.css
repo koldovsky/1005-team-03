@@ -145,3 +145,46 @@
   justify-content: space-between;
   margin-top: 40px;
 }
+@media screen and (max-width: 768px) {
+  .secondpage__container {
+  margin: 0;
+  }
+  .menu__title,
+  .menu__subtitle,
+  .description {
+  text-align: center;
+  }
+  .menu__title,
+  .menu__subtitle {
+  margin: 20px 0;
+  }
+  .bar-menu,
+  .food-menu,
+  .happy-hour {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0;
+  }
+  .container_menu {
+  flex-direction: column;
+  margin-top: 20px;
+  }
+  .bar-menu h2,
+  .food-menu h2,
+  .happy-hour h2 {
+  position: static;
+  }
+  .bar-menu img,
+  .food-menu img,
+  .happy-hour img {
+  opacity: 1;
+  }
+  .bar_menu_wrapper,
+  .food_menu_wrapper,
+  .happy_hour_wrapper {
+  position: static;
+  opacity: 1;
+  
+  transition: none;
+  }
+  }
