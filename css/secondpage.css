@@ -44,7 +44,7 @@
     padding: 0px 36px;
 }
 .container_menu {
-    margin: 60px 0 60px 0;
+    margin: -40px 0 60px 0;
     display: flex;
     justify-content: center;
 }    
@@ -144,30 +144,4 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-}
-
-/* стилі для маленьких екранів */
-@media only screen and (max-width: 768px) {
-  .secondpage__container {
-    padding: 20px;
-  }
-
-  .container_menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu__subtitle {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .bar-menu, .food-menu, .happy-hour {
-    margin-top: 40px;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
