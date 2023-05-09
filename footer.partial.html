@@ -1,9 +1,9 @@
 <footer id="contacts">
-    <div class="footer container">
+    <div class="footer">
         <div class="footer__top">   
             <div class="footer__column-logo">
                 <div class="footer__logo-container">
-                    <a class="footer__logo" href="#"><img width="176" height="35" src="images/beer-logo.svg" alt="logo"></a>
+                    <a class="footer__logo" href="#"><img src="images/beer-logo.svg" alt="logo"></a>
                 </div>    
                 <p class="footer__text">Welcome to your favorite pub with draft and bottled beer from the best local and world-famous producers.</p>
                 <div class="footer__social social-list">
@@ -18,7 +18,7 @@
                 <h5 class="footer__title">NAVIGATION</h5>
                 <ul class="footer-nav__list">    
                     <li class="footer-nav__item"><a href="#">About us</a></li>
-                    <li class="footer-nav__item"><a href="#">Menu</a></li>
+                    <li class="footer-nav__item"><a href="menu.html">Menu</a></li>
                     <li class="footer-nav__item"><a href="#">Testimonials</a></li>
                     <li class="footer-nav__item"><a href="#">Contacts</a></li>
                 </ul>
@@ -28,14 +28,12 @@
                 <h5 class="footer__title">CONTACTS</h5>
                 <ul class="footer__contacts-list contacts-list">    
                     <li class="contacts-list__item">
-                        <div class="contacts-list__icon">
-                            <img src="images/phone-logo.svg" width="25" alt="Phone">
-                        </div>
-                        <a class="contacts-list__text" href="tel:12345678900">+1 (234) 567 89 00</a>
+                        <img class="contacts-list__icon" src="images/phone-logo.svg" width="25" alt="Phone">
+                        <a class="contacts-list__text contact_active" href="tel:12345678900">+1 (234) 567 89 00</a>
                     </li>
                     <li class="contacts-list__item">
                         <img class="contacts-list__icon" src="images/mail-logo.svg" width="25" alt="Mail">
-                        <a class="contacts-list__text" href="mailto:beerboutique@email.com">beerboutique@email.com</a>
+                        <a class="contacts-list__text contact_active" href="mailto:beerboutique@email.com">beerboutique@email.com</a>
                     </li>
                     <li class="contacts-list__item">
                         <img class="contacts-list__icon" src="images/map-logo.svg" width="17" height="25" alt="Map">
@@ -65,5 +63,7 @@
                 <p>All rights Reserved</p>
             </div>    
         </div>
+        <script src="https://unpkg.com/html-data-include@2.2.2/html-data-include.js"></script>
+        <script type="module" src="scripts/footer.js"></script>
     </div>
 </footer>

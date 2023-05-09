@@ -1,56 +1,54 @@
 .video-item video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 	
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
 }
 
-/* Header blog */
 .blog-header h3 {
     margin-top: 100px;
-	text-align: center;
+    text-align: center;
 }
 
 .blog-header h2 {
     margin-top: 20px;
-	text-align: center;
+    text-align: center;
 }
 
 .blog-header h4 {
     margin-top: 40px;
-	text-align: center;
+    text-align: center;
 }
 
- .blog-container {
+.blog-container {
     margin-top: 50px;
-    box-sizing: content-box;
-    margin-left: 551px;
-    margin-right: 551px; 
-	justify-content: center;
-} 
+    margin-bottom: 50px;
+}
 
 .blog-item-post {
     justify-content: center;
     margin-bottom: 40px;
-    /* width: 33%; */
+    gap: 20px;
 }
 
 .blog-item-post h3 {
-	font-size: 28px;
+    font-size: 28px;
     color: var(--title-color);
-	font-family: "Teko", sans-serif;
+    font-family: "Teko", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .blog-item-post h5 {
-	color: var(--grand-text-color);
-    font-size: 20px;
+    color: var(--grand-text-color);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .blog-item-post p {
-	color: var(--blog-text);
-	font-family: "Open Sans", sans-serif;
-    height: 20px;
+    color: var(--blog-text);
+    font-family: "Open Sans", sans-serif;
+    height: 43px;
     overflow: hidden;
 }
 
@@ -63,12 +61,30 @@
     cursor: pointer;
     display: inline-block;
     fill: #000;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     padding: 25px 55px;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.blog-item-post img {
+    width: 320px;
+    height: 200px;
+}
+
+@media (max-width: 300px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blog-item-post img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
 }
 
 @media (min-width: 600px) {
@@ -77,17 +93,27 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-}
 
-
-@media (min-width: 900px) {
-    .blog-container {
-        grid-template-columns: 1fr 1fr 1fr;
+    .blog-item-post img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 900px) {
     .blog-container {
-    margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .blog-item-post {
+        width: 31%;
+    }
+
+    .blog-item-post img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
     }
 }
