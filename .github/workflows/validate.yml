@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 14
+        node-version: 20
 
     - name: Install dependencies
       run: |
@@ -34,11 +34,13 @@ jobs:
 
         for file in $(find . -maxdepth 1 -iname "*.html" ! -iname "*.partial.html"); do
           echo "Processing file: ${file:2}"
-          output_file="$(basename $file .html).rendered.html"
+          output_file=$file
           node -e "const puppeteer = require('puppeteer');
           (async () => {
             const url = 'http://localhost:8080/${file:2}';
-            const browser = await puppeteer.launch();
+            const browser = await puppeteer.launch({
+              headless: 'new'
+            });
             const page = await browser.newPage();
             await page.goto(url, {waitUntil: 'networkidle0'});
             const html = await page.content();
@@ -63,6 +65,7 @@ jobs:
 
     - name: Run HTML Proofer
       run: |
-        for file in $(find . -maxdepth 1 -iname "*.rendered.html"); do
+        for file in $(find . -maxdepth 1 -iname "*.html" ! -iname "*.partial.html"); do
           htmlproofer $file --disable-external
         done
+        
